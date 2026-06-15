@@ -7043,7 +7043,6 @@ gdjs.copyArray(runtimeScene.getObjects("Click_outside"), gdjs.MapCode.GDClick_95
 {
 
 gdjs.copyArray(runtimeScene.getObjects("Close_btn"), gdjs.MapCode.GDClose_9595btnObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.MapCode.GDHint_9595btnObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -7053,14 +7052,14 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.MapCode.GDHint_9595btnObjects1.length;i<l;++i) {
-    if ( gdjs.MapCode.GDHint_9595btnObjects1[i].getVariableNumber(gdjs.MapCode.GDHint_9595btnObjects1[i].getVariables().getFromIndex(1)) == 0 ) {
+for (var i = 0, k = 0, l = gdjs.MapCode.GDClose_9595btnObjects1.length;i<l;++i) {
+    if ( gdjs.MapCode.GDClose_9595btnObjects1[i].getVariableNumber(gdjs.MapCode.GDClose_9595btnObjects1[i].getVariables().getFromIndex(0)) == 0 ) {
         isConditionTrue_0 = true;
-        gdjs.MapCode.GDHint_9595btnObjects1[k] = gdjs.MapCode.GDHint_9595btnObjects1[i];
+        gdjs.MapCode.GDClose_9595btnObjects1[k] = gdjs.MapCode.GDClose_9595btnObjects1[i];
         ++k;
     }
 }
-gdjs.MapCode.GDHint_9595btnObjects1.length = k;
+gdjs.MapCode.GDClose_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27242492);
