@@ -5500,6 +5500,8 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Kafka_95MonuementCode.loca
 }
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
+}
 {runtimeScene.getGame().getVariables().getFromIndex(7).setString("Hotel_2");
 }
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(true);

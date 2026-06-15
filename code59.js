@@ -5495,6 +5495,12 @@ gdjs.SynagogueCode.eventsList51(runtimeScene);} //End of subevents
 };gdjs.SynagogueCode.mapOfGDgdjs_9546SynagogueCode_9546GDAction_95959595btn_9595959531Objects1Objects = Hashtable.newFrom({"Action_btn_31": gdjs.SynagogueCode.GDAction_9595btn_959531Objects1});
 gdjs.SynagogueCode.asyncCallback28942652 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.SynagogueCode.localVariables);
+{runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Hotel").setNumber(0);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
+}
 {runtimeScene.getGame().getVariables().getFromIndex(7).setString("Hotel_2");
 }
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(true);
