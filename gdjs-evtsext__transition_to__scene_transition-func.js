@@ -11,13 +11,13 @@ gdjs.evtsExt__Transition_To__Scene_Transition.GDDarkenObjects1= [];
 gdjs.evtsExt__Transition_To__Scene_Transition.GDDarkenObjects2= [];
 
 
-gdjs.evtsExt__Transition_To__Scene_Transition.asyncCallback25880828 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Transition_To__Scene_Transition.asyncCallback25901396 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, eventsFunctionContext.getArgument("Scene"), false);
 }
 eventsFunctionContext.localVariables.length = 0;
 }
-gdjs.evtsExt__Transition_To__Scene_Transition.idToCallbackMap.set(25880828, gdjs.evtsExt__Transition_To__Scene_Transition.asyncCallback25880828);
+gdjs.evtsExt__Transition_To__Scene_Transition.idToCallbackMap.set(25901396, gdjs.evtsExt__Transition_To__Scene_Transition.asyncCallback25901396);
 gdjs.evtsExt__Transition_To__Scene_Transition.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
@@ -27,7 +27,7 @@ gdjs.evtsExt__Transition_To__Scene_Transition.eventsList0 = function(runtimeScen
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Transition_To__Scene_Transition.asyncCallback25880828(runtimeScene, eventsFunctionContext, asyncObjectsList)), 25880828, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Transition_To__Scene_Transition.asyncCallback25901396(runtimeScene, eventsFunctionContext, asyncObjectsList)), 25901396, asyncObjectsList);
 }
 }
 
