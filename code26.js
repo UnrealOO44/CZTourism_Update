@@ -1790,7 +1790,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.OT_95StartCode.asyncCallback27737772 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OT_95StartCode.localVariables);
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Old_Town_Square", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), false);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(false);
 }
@@ -2221,6 +2221,46 @@ gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.OT_95StartCode.GDDarkenOb
 
 { //Subevents
 gdjs.OT_95StartCode.eventsList54(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Town_Square").getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37704268);
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(7).setString("Old_Town_Square2");
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Town_Square").getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15489924);
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(7).setString("Old_Town_Square");
+}
 }
 
 }
