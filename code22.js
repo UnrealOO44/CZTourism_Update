@@ -93,11 +93,6 @@ gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects2= [];
 gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects3= [];
 gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects4= [];
 gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects5= [];
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1= [];
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects2= [];
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects3= [];
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects4= [];
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects5= [];
 gdjs.Charles_95BridgeCode.GDBook_9595left_9595btnObjects1= [];
 gdjs.Charles_95BridgeCode.GDBook_9595left_9595btnObjects2= [];
 gdjs.Charles_95BridgeCode.GDBook_9595left_9595btnObjects3= [];
@@ -270,7 +265,7 @@ gdjs.Charles_95BridgeCode.GDClick_9595outsideObjects4= [];
 gdjs.Charles_95BridgeCode.GDClick_9595outsideObjects5= [];
 
 
-gdjs.Charles_95BridgeCode.asyncCallback29584884 = function (runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.asyncCallback29704364 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Charles_95BridgeCode.GDDarkenObjects2);
 
@@ -280,7 +275,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Charles_95BridgeCode.
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(29584884, gdjs.Charles_95BridgeCode.asyncCallback29584884);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(29704364, gdjs.Charles_95BridgeCode.asyncCallback29704364);
 gdjs.Charles_95BridgeCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -291,14 +286,14 @@ gdjs.Charles_95BridgeCode.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 for (const obj of gdjs.Charles_95BridgeCode.GDDarkenObjects1) asyncObjectsList.addObject("Darken", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29584884(runtimeScene, asyncObjectsList)), 29584884, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29704364(runtimeScene, asyncObjectsList)), 29704364, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27412436 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27505732 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Charles_95BridgeCode.GDHint_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2);
@@ -314,7 +309,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Charles_95BridgeCode.GD
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27412436, gdjs.Charles_95BridgeCode.asyncCallback27412436);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27505732, gdjs.Charles_95BridgeCode.asyncCallback27505732);
 gdjs.Charles_95BridgeCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -324,7 +319,7 @@ gdjs.Charles_95BridgeCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27412436(runtimeScene, asyncObjectsList)), 27412436, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27505732(runtimeScene, asyncObjectsList)), 27505732, asyncObjectsList);
 }
 }
 
@@ -367,7 +362,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29434380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29553628);
 }
 }
 }
@@ -397,7 +392,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29435292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29554532);
 }
 }
 }
@@ -424,7 +419,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29436452);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29556068);
 }
 }
 }
@@ -451,7 +446,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29437564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29556836);
 }
 }
 }
@@ -478,7 +473,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29438316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29557524);
 }
 }
 }
@@ -507,7 +502,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29440084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29559292);
 }
 }
 }
@@ -536,7 +531,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29441236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29560444);
 }
 }
 }
@@ -563,7 +558,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29442884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29562092);
 }
 }
 }
@@ -590,7 +585,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29442356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29561564);
 }
 }
 }
@@ -617,7 +612,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29444828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29564036);
 }
 }
 }
@@ -651,7 +646,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29446380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29565588);
 }
 }
 }
@@ -685,7 +680,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29447460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29566668);
 }
 }
 }
@@ -719,7 +714,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29448532);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29567740);
 }
 }
 }
@@ -753,7 +748,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29449684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29568892);
 }
 }
 }
@@ -787,7 +782,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29450812);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29570020);
 }
 }
 }
@@ -821,7 +816,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29451892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29571100);
 }
 }
 }
@@ -848,7 +843,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29453044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29572252);
 }
 }
 }
@@ -875,7 +870,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29453812);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29573020);
 }
 }
 }
@@ -901,7 +896,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29456732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29575940);
 }
 }
 if (isConditionTrue_0) {
@@ -923,7 +918,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29458636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29577844);
 }
 }
 if (isConditionTrue_0) {
@@ -945,7 +940,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29460548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29579756);
 }
 }
 if (isConditionTrue_0) {
@@ -959,6 +954,25 @@ if (isConditionTrue_0) {
 };gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDNotification_95959595down_95959595btnObjects2Objects = Hashtable.newFrom({"Notification_down_btn": gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2});
 gdjs.Charles_95BridgeCode.eventsList6 = function(runtimeScene) {
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29582044);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Menu Selection Click.wav", false, runtimeScene.getGame().getVariables().getFromIndex(2).getAsNumber(), 1);
+}
+}
+
+}
+
+
 };gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDMenu_95959595btnObjects2Objects = Hashtable.newFrom({"Menu_btn": gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2});
 gdjs.Charles_95BridgeCode.eventsList7 = function(runtimeScene) {
 
@@ -970,7 +984,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29465156);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29584364);
 }
 }
 if (isConditionTrue_0) {
@@ -992,7 +1006,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29467388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29586596);
 }
 }
 if (isConditionTrue_0) {
@@ -1014,7 +1028,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29468996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29588204);
 }
 }
 if (isConditionTrue_0) {
@@ -1036,7 +1050,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29470996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29590204);
 }
 }
 if (isConditionTrue_0) {
@@ -1058,7 +1072,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29472860);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29592068);
 }
 }
 if (isConditionTrue_0) {
@@ -1080,7 +1094,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29474780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27617540);
 }
 }
 if (isConditionTrue_0) {
@@ -1102,7 +1116,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29475124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27620460);
 }
 }
 if (isConditionTrue_0) {
@@ -1124,7 +1138,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27524820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27616356);
 }
 }
 if (isConditionTrue_0) {
@@ -1146,7 +1160,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27528260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29606892);
 }
 }
 if (isConditionTrue_0) {
@@ -1168,7 +1182,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27525748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29609124);
 }
 }
 if (isConditionTrue_0) {
@@ -1190,7 +1204,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29492548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29611428);
 }
 }
 if (isConditionTrue_0) {
@@ -1212,7 +1226,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29494780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29613812);
 }
 }
 if (isConditionTrue_0) {
@@ -1234,7 +1248,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29496644);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29615676);
 }
 }
 if (isConditionTrue_0) {
@@ -1256,7 +1270,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29498468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29617500);
 }
 }
 if (isConditionTrue_0) {
@@ -1983,7 +1997,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDHint_9595btnObjects2.leng
 gdjs.Charles_95BridgeCode.GDHint_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29499988);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29619020);
 }
 }
 }
@@ -2023,7 +2037,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotification_9595close_95
 gdjs.Charles_95BridgeCode.GDNotification_9595close_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29501476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29620508);
 }
 }
 }
@@ -2063,7 +2077,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects2.le
 gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29502796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29621828);
 }
 }
 }
@@ -2113,7 +2127,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotification_9595down_959
 gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29504828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29623860);
 }
 }
 }
@@ -2154,7 +2168,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2.leng
 gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29506140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29625172);
 }
 }
 }
@@ -2194,7 +2208,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2.len
 gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29507692);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29626724);
 }
 }
 }
@@ -2224,7 +2238,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29508788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29627820);
 }
 }
 }
@@ -2253,7 +2267,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29510068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29629100);
 }
 }
 }
@@ -2282,7 +2296,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29511564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29630596);
 }
 }
 }
@@ -2311,7 +2325,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29513428);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29632460);
 }
 }
 }
@@ -2360,7 +2374,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDSynagogueObjects2.length;
 gdjs.Charles_95BridgeCode.GDSynagogueObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29515212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29634244);
 }
 }
 }
@@ -2411,7 +2425,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDCemeteryObjects2.length;i
 gdjs.Charles_95BridgeCode.GDCemeteryObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29516964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29635996);
 }
 }
 }
@@ -2462,7 +2476,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDCharlesBridgeObjects2.len
 gdjs.Charles_95BridgeCode.GDCharlesBridgeObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29518780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29637812);
 }
 }
 }
@@ -2513,7 +2527,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDCrucifixBastionObjects2.l
 gdjs.Charles_95BridgeCode.GDCrucifixBastionObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29520380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29639412);
 }
 }
 }
@@ -2564,7 +2578,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDKafkaMonumentObjects2.len
 gdjs.Charles_95BridgeCode.GDKafkaMonumentObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29522492);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29641524);
 }
 }
 }
@@ -2615,7 +2629,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDTownSquareObjects2.length
 gdjs.Charles_95BridgeCode.GDTownSquareObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29524300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29643332);
 }
 }
 }
@@ -2646,7 +2660,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29524516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29643548);
 }
 }
 }
@@ -2675,7 +2689,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29527060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29646092);
 }
 }
 }
@@ -2853,7 +2867,7 @@ if (isConditionTrue_0) {
 
 
 };gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDMenu_95959595btnObjects1Objects = Hashtable.newFrom({"Menu_btn": gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects1});
-gdjs.Charles_95BridgeCode.asyncCallback29538340 = function (runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.asyncCallback29656484 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(6).setString(gdjs.evtTools.runtimeScene.getSceneName(runtimeScene));
 }
@@ -2861,7 +2875,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.local
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(29538340, gdjs.Charles_95BridgeCode.asyncCallback29538340);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(29656484, gdjs.Charles_95BridgeCode.asyncCallback29656484);
 gdjs.Charles_95BridgeCode.eventsList24 = function(runtimeScene) {
 
 {
@@ -2871,7 +2885,7 @@ gdjs.Charles_95BridgeCode.eventsList24 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29538340(runtimeScene, asyncObjectsList)), 29538340, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29656484(runtimeScene, asyncObjectsList)), 29656484, asyncObjectsList);
 }
 }
 
@@ -2896,7 +2910,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2.len
 gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29533516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29652548);
 }
 }
 if (isConditionTrue_0) {
@@ -2935,7 +2949,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2.leng
 gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29534636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29653668);
 }
 }
 if (isConditionTrue_0) {
@@ -2994,7 +3008,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects1.leng
 gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29536812);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29655844);
 }
 }
 }
@@ -3008,14 +3022,6 @@ gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.Charles_95BridgeCode.GDDa
 {gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 2, 0, 0.5);
 }
 {gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 3, 0, 0.5);
-}
-{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 1);
-}
-{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
-}
-{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 3);
-}
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "1. Journey Begins.mp3", 1, true, runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber(), 1);
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDDarkenObjects1.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDDarkenObjects1[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.2, false);
@@ -3041,7 +3047,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29542252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29660676);
 }
 }
 if (isConditionTrue_0) {
@@ -3112,7 +3118,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29543596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29661380);
 }
 }
 }
@@ -3141,7 +3147,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29547148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29665244);
 }
 }
 if (isConditionTrue_0) {
@@ -3212,7 +3218,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29547852);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29665964);
 }
 }
 }
@@ -3241,7 +3247,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29551732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29669844);
 }
 }
 if (isConditionTrue_0) {
@@ -3312,7 +3318,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29552452);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29670564);
 }
 }
 }
@@ -3341,7 +3347,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29556332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29674444);
 }
 }
 if (isConditionTrue_0) {
@@ -3412,7 +3418,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29557052);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29675164);
 }
 }
 }
@@ -3441,7 +3447,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29560916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29679028);
 }
 }
 if (isConditionTrue_0) {
@@ -3512,7 +3518,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29561636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29679748);
 }
 }
 }
@@ -3541,7 +3547,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29565508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29683620);
 }
 }
 if (isConditionTrue_0) {
@@ -3612,7 +3618,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29566228);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29684340);
 }
 }
 }
@@ -3804,7 +3810,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29568140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29686252);
 }
 }
 }
@@ -3912,7 +3918,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29569908);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29688020);
 }
 }
 }
@@ -4020,7 +4026,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29571740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29689852);
 }
 }
 }
@@ -4128,7 +4134,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29573556);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29691668);
 }
 }
 }
@@ -4232,7 +4238,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29574204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29692316);
 }
 }
 if (isConditionTrue_0) {
@@ -4346,6 +4352,10 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDSynagogueObjects2.length;
 }
 gdjs.Charles_95BridgeCode.GDSynagogueObjects2.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.Charles_95BridgeCode.GDSynagogueObjects2 */
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDSynagogueObjects2.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDSynagogueObjects2[i].returnVariable(gdjs.Charles_95BridgeCode.GDSynagogueObjects2[i].getVariables().getFromIndex(0)).setBoolean(true);
@@ -4390,6 +4400,10 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDCemeteryObjects2.length;i
     }
 }
 gdjs.Charles_95BridgeCode.GDCemeteryObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.Charles_95BridgeCode.GDCemeteryObjects2 */
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDCemeteryObjects2.length ;i < len;++i) {
@@ -4436,6 +4450,10 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDCrucifixBastionObjects2.l
 }
 gdjs.Charles_95BridgeCode.GDCrucifixBastionObjects2.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.Charles_95BridgeCode.GDCrucifixBastionObjects2 */
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDCrucifixBastionObjects2.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDCrucifixBastionObjects2[i].returnVariable(gdjs.Charles_95BridgeCode.GDCrucifixBastionObjects2[i].getVariables().getFromIndex(0)).setBoolean(true);
@@ -4480,6 +4498,10 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDCharlesBridgeObjects2.len
     }
 }
 gdjs.Charles_95BridgeCode.GDCharlesBridgeObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.Charles_95BridgeCode.GDCharlesBridgeObjects2 */
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDCharlesBridgeObjects2.length ;i < len;++i) {
@@ -4526,6 +4548,10 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDKafkaMonumentObjects2.len
 }
 gdjs.Charles_95BridgeCode.GDKafkaMonumentObjects2.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.Charles_95BridgeCode.GDKafkaMonumentObjects2 */
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDKafkaMonumentObjects2.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDKafkaMonumentObjects2[i].returnVariable(gdjs.Charles_95BridgeCode.GDKafkaMonumentObjects2[i].getVariables().getFromIndex(0)).setBoolean(true);
@@ -4570,6 +4596,10 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDTownSquareObjects2.length
     }
 }
 gdjs.Charles_95BridgeCode.GDTownSquareObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.Charles_95BridgeCode.GDTownSquareObjects2 */
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDTownSquareObjects2.length ;i < len;++i) {
@@ -4632,7 +4662,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotificationObjects2.leng
 gdjs.Charles_95BridgeCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29404484);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29522460);
 }
 }
 if (isConditionTrue_0) {
@@ -4680,7 +4710,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotificationObjects2.leng
 gdjs.Charles_95BridgeCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29406356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29524332);
 }
 }
 if (isConditionTrue_0) {
@@ -4728,7 +4758,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotificationObjects1.leng
 gdjs.Charles_95BridgeCode.GDNotificationObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29408540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29526516);
 }
 }
 if (isConditionTrue_0) {
@@ -4762,7 +4792,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95Brid
 
 };gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDNotification_95959595down_95959595btnObjects2Objects = Hashtable.newFrom({"Notification_down_btn": gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2});
 gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDNotificationObjects4Objects = Hashtable.newFrom({"Notification": gdjs.Charles_95BridgeCode.GDNotificationObjects4});
-gdjs.Charles_95BridgeCode.asyncCallback29414084 = function (runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.asyncCallback29532060 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Mask"), gdjs.Charles_95BridgeCode.GDMaskObjects4);
 
@@ -4776,7 +4806,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Charles_95Bridg
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(29414084, gdjs.Charles_95BridgeCode.asyncCallback29414084);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(29532060, gdjs.Charles_95BridgeCode.asyncCallback29532060);
 gdjs.Charles_95BridgeCode.eventsList42 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -4789,14 +4819,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 /* Don't save Mask as it will be provided by the parent asyncObjectsList. */
 /* Don't save Notification as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29414084(runtimeScene, asyncObjectsList)), 29414084, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29532060(runtimeScene, asyncObjectsList)), 29532060, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback29413972 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback29531948 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects3);
 
@@ -4809,7 +4839,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.Charle
 gdjs.Charles_95BridgeCode.eventsList42(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(29413972, gdjs.Charles_95BridgeCode.asyncCallback29413972);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(29531948, gdjs.Charles_95BridgeCode.asyncCallback29531948);
 gdjs.Charles_95BridgeCode.eventsList43 = function(runtimeScene) {
 
 {
@@ -4822,7 +4852,7 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localV
 for (const obj of gdjs.Charles_95BridgeCode.GDMaskObjects2) asyncObjectsList.addObject("Mask", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotificationObjects2) asyncObjectsList.addObject("Notification", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2) asyncObjectsList.addObject("Notification_down_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29413972(runtimeScene, asyncObjectsList)), 29413972, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29531948(runtimeScene, asyncObjectsList)), 29531948, asyncObjectsList);
 }
 }
 
@@ -4831,7 +4861,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 };gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDNotification_95959595down_95959595btnObjects2Objects = Hashtable.newFrom({"Notification_down_btn": gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2});
 gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDNotificationObjects4Objects = Hashtable.newFrom({"Notification": gdjs.Charles_95BridgeCode.GDNotificationObjects4});
-gdjs.Charles_95BridgeCode.asyncCallback29419148 = function (runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.asyncCallback29537124 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Mask"), gdjs.Charles_95BridgeCode.GDMaskObjects4);
 
@@ -4845,7 +4875,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Charles_95Bridg
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(29419148, gdjs.Charles_95BridgeCode.asyncCallback29419148);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(29537124, gdjs.Charles_95BridgeCode.asyncCallback29537124);
 gdjs.Charles_95BridgeCode.eventsList44 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -4858,14 +4888,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 /* Don't save Mask as it will be provided by the parent asyncObjectsList. */
 /* Don't save Notification as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29419148(runtimeScene, asyncObjectsList)), 29419148, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29537124(runtimeScene, asyncObjectsList)), 29537124, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback29419076 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback29537052 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects3);
 
@@ -4878,7 +4908,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.Charle
 gdjs.Charles_95BridgeCode.eventsList44(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(29419076, gdjs.Charles_95BridgeCode.asyncCallback29419076);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(29537052, gdjs.Charles_95BridgeCode.asyncCallback29537052);
 gdjs.Charles_95BridgeCode.eventsList45 = function(runtimeScene) {
 
 {
@@ -4891,7 +4921,7 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localV
 for (const obj of gdjs.Charles_95BridgeCode.GDMaskObjects2) asyncObjectsList.addObject("Mask", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotificationObjects2) asyncObjectsList.addObject("Notification", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2) asyncObjectsList.addObject("Notification_down_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29419076(runtimeScene, asyncObjectsList)), 29419076, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29537052(runtimeScene, asyncObjectsList)), 29537052, asyncObjectsList);
 }
 }
 
@@ -4944,7 +4974,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotificationObjects2.leng
 gdjs.Charles_95BridgeCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29410660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29528636);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5013,7 +5043,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotification_9595down_959
 gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29411476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29529452);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5078,7 +5108,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotificationObjects2.leng
 gdjs.Charles_95BridgeCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29415692);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29533668);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5147,7 +5177,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotification_9595down_959
 gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29415276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29533252);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5204,7 +5234,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotificationObjects2.leng
 gdjs.Charles_95BridgeCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29420524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29538500);
 }
 }
 if (isConditionTrue_0) {
@@ -5234,7 +5264,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotificationObjects2.leng
 gdjs.Charles_95BridgeCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29421844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29539820);
 }
 }
 if (isConditionTrue_0) {
@@ -5267,7 +5297,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDNotification_9595close_95
 gdjs.Charles_95BridgeCode.GDNotification_9595close_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29423340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29541316);
 }
 }
 }
@@ -5284,7 +5314,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Charles_95BridgeCod
 
 
 };gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDClick_95959595outsideObjects1Objects = Hashtable.newFrom({"Click_outside": gdjs.Charles_95BridgeCode.GDClick_9595outsideObjects1});
-gdjs.Charles_95BridgeCode.asyncCallback29426732 = function (runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.asyncCallback29544708 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects2);
 
@@ -5294,7 +5324,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Charles_95Bridg
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(29426732, gdjs.Charles_95BridgeCode.asyncCallback29426732);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(29544708, gdjs.Charles_95BridgeCode.asyncCallback29544708);
 gdjs.Charles_95BridgeCode.eventsList48 = function(runtimeScene) {
 
 {
@@ -5305,7 +5335,7 @@ gdjs.Charles_95BridgeCode.eventsList48 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotificationObjects1) asyncObjectsList.addObject("Notification", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29426732(runtimeScene, asyncObjectsList)), 29426732, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback29544708(runtimeScene, asyncObjectsList)), 29544708, asyncObjectsList);
 }
 }
 
@@ -5333,7 +5363,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29425468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29543444);
 }
 }
 }
@@ -5367,7 +5397,7 @@ gdjs.Charles_95BridgeCode.eventsList48(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27420740 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27507076 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Hint_btn"), gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4);
 
@@ -5377,7 +5407,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Hint_btn"), gdjs.Charles_95BridgeCod
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27420740, gdjs.Charles_95BridgeCode.asyncCallback27420740);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27507076, gdjs.Charles_95BridgeCode.asyncCallback27507076);
 gdjs.Charles_95BridgeCode.eventsList50 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -5389,7 +5419,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 /* Don't save Hint_btn as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27420740(runtimeScene, asyncObjectsList)), 27420740, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27507076(runtimeScene, asyncObjectsList)), 27507076, asyncObjectsList);
 }
 }
 
@@ -5403,7 +5433,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3);
+/* Reuse gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3 */
 gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects3);
 
 /* Reuse gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3 */
@@ -5419,32 +5449,23 @@ gdjs.Charles_95BridgeCode.eventsList50(runtimeScene, asyncObjectsList);} //End o
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27418052 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27512676 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_21"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3);
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_22"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3);
-gdjs.copyArray(asyncObjectsList.getObjects("Button_text_21"), gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3);
-
-gdjs.copyArray(asyncObjectsList.getObjects("Button_text_22"), gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3);
+gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3);
+gdjs.copyArray(asyncObjectsList.getObjects("Button_text_11"), gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3);
 
 gdjs.copyArray(runtimeScene.getObjects("Mask"), gdjs.Charles_95BridgeCode.GDMaskObjects3);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification_text"), gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3);
 
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
 }
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
-}
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
-}
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
+for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
 }
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDMaskObjects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDMaskObjects3[i].getBehavior("Resizable").setHeight((( gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3[0].getY()) :gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3[0].getY()) :gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3[0].getY()) :gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3[0].getY()) - (gdjs.Charles_95BridgeCode.GDMaskObjects3[i].getPointY("")) - 70);
+    gdjs.Charles_95BridgeCode.GDMaskObjects3[i].getBehavior("Resizable").setHeight((( gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3[0].getY()) :gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3[0].getY()) - (gdjs.Charles_95BridgeCode.GDMaskObjects3[i].getPointY("")) - 70);
 }
 }
 
@@ -5452,7 +5473,7 @@ for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3.
 gdjs.Charles_95BridgeCode.eventsList51(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27418052, gdjs.Charles_95BridgeCode.asyncCallback27418052);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27512676, gdjs.Charles_95BridgeCode.asyncCallback27512676);
 gdjs.Charles_95BridgeCode.eventsList52 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -5463,12 +5484,11 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2) asyncObjectsList.addObject("Button_text_21", obj);
-for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2) asyncObjectsList.addObject("Button_text_22", obj);
+for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2) asyncObjectsList.addObject("Button_text_11", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDHint_9595btnObjects2) asyncObjectsList.addObject("Hint_btn", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotificationObjects2) asyncObjectsList.addObject("Notification", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2) asyncObjectsList.addObject("Notification_text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27418052(runtimeScene, asyncObjectsList)), 27418052, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27512676(runtimeScene, asyncObjectsList)), 27512676, asyncObjectsList);
 }
 }
 
@@ -5504,13 +5524,12 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDHint_9595btnObjects2.leng
 gdjs.Charles_95BridgeCode.GDHint_9595btnObjects2.length = k;
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Button_text_21"), gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2);
-gdjs.copyArray(runtimeScene.getObjects("Button_text_22"), gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Button_text_11"), gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2);
 /* Reuse gdjs.Charles_95BridgeCode.GDNotificationObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("Notification_Head"), gdjs.Charles_95BridgeCode.GDNotification_9595HeadObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2);
-{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(1);
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotificationObjects2.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDNotificationObjects2[i].returnVariable(gdjs.Charles_95BridgeCode.GDNotificationObjects2[i].getVariables().getFromIndex(0)).setString("notification");
@@ -5525,23 +5544,15 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95Brid
 }
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[i].getBehavior("Text").setText("Wow! Charles Bridge. This ancient structure spans the width of the Vltava River. It is rumored \n that from up here you can see the site where Rabbi Loew took the mud and clay to create the \n Golem, but to see it you must first find the saint with a halo of five stars. But what was his \n name again… and which of these statues is he?");
+    gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[i].getBehavior("Text").setText("Wow! Charles Bridge. This ancient structure spans the width of the Vltava River. It is rumored \n that from up here you can see the site where Rabbi Loew took the mud and clay to create the \n Golem, but to see it, you must first find the saint with a halo of five stars. What was his \n name again… and which of these statues is he?");
 }
 }
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2[i].setCharacterSize(26);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2[i].setCharacterSize(26);
 }
 }
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2[i].setCharacterSize(26);
-}
-}
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2[i].getBehavior("Text").setText("Return to hotel");
-}
-}
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2[i].getBehavior("Text").setText("Name the saint");
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2[i].getBehavior("Text").setText("Name the saint");
 }
 }
 
@@ -5552,14 +5563,14 @@ gdjs.Charles_95BridgeCode.eventsList52(runtimeScene, asyncObjectsList);} //End o
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27414180 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27507476 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 
 { //Subevents
 gdjs.Charles_95BridgeCode.eventsList53(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27414180, gdjs.Charles_95BridgeCode.asyncCallback27414180);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27507476, gdjs.Charles_95BridgeCode.asyncCallback27507476);
 gdjs.Charles_95BridgeCode.eventsList54 = function(runtimeScene) {
 
 {
@@ -5569,7 +5580,7 @@ gdjs.Charles_95BridgeCode.eventsList54 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27414180(runtimeScene, asyncObjectsList)), 27414180, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27507476(runtimeScene, asyncObjectsList)), 27507476, asyncObjectsList);
 }
 }
 
@@ -5577,7 +5588,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), 
 
 
 };gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDClick_95959595BGObjects1Objects = Hashtable.newFrom({"Click_BG": gdjs.Charles_95BridgeCode.GDClick_9595BGObjects1});
-gdjs.Charles_95BridgeCode.asyncCallback27425788 = function (runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.asyncCallback27517740 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Charles_95BridgeCode.GDHint_9595btnObjects3);
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDHint_9595btnObjects3.length ;i < len;++i) {
@@ -5586,7 +5597,7 @@ gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Charles_95BridgeCode.GD
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27425788, gdjs.Charles_95BridgeCode.asyncCallback27425788);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27517740, gdjs.Charles_95BridgeCode.asyncCallback27517740);
 gdjs.Charles_95BridgeCode.eventsList55 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -5597,7 +5608,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27425788(runtimeScene, asyncObjectsList)), 27425788, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27517740(runtimeScene, asyncObjectsList)), 27517740, asyncObjectsList);
 }
 }
 
@@ -5611,10 +5622,10 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27416596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27517644);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects2);
+/* Reuse gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects2 */
 gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects2);
 
 /* Reuse gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2 */
@@ -5630,32 +5641,23 @@ gdjs.Charles_95BridgeCode.eventsList55(runtimeScene, asyncObjectsList);} //End o
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27416756 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27511068 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_21"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects2);
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_22"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects2);
-gdjs.copyArray(asyncObjectsList.getObjects("Button_text_21"), gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2);
-
-gdjs.copyArray(asyncObjectsList.getObjects("Button_text_22"), gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects2);
+gdjs.copyArray(asyncObjectsList.getObjects("Button_text_11"), gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2);
 
 gdjs.copyArray(runtimeScene.getObjects("Mask"), gdjs.Charles_95BridgeCode.GDMaskObjects2);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification_text"), gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2);
 
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects2[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getHeight()) + 90);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects2[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getHeight()) + 90);
 }
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects2[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getHeight()) + 90);
-}
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getHeight()) + 90);
-}
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getHeight()) + 90);
+for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[0].getHeight()) + 90);
 }
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDMaskObjects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDMaskObjects2[i].getBehavior("Resizable").setHeight((( gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects2.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects2[0].getY()) :gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects2[0].getY()) :gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2[0].getY()) :gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2[0].getY()) - (gdjs.Charles_95BridgeCode.GDMaskObjects2[i].getPointY("")) - 70);
+    gdjs.Charles_95BridgeCode.GDMaskObjects2[i].getBehavior("Resizable").setHeight((( gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects2.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects2[0].getY()) :gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2[0].getY()) - (gdjs.Charles_95BridgeCode.GDMaskObjects2[i].getPointY("")) - 70);
 }
 }
 
@@ -5663,7 +5665,7 @@ for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.
 gdjs.Charles_95BridgeCode.eventsList56(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27416756, gdjs.Charles_95BridgeCode.asyncCallback27416756);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27511068, gdjs.Charles_95BridgeCode.asyncCallback27511068);
 gdjs.Charles_95BridgeCode.eventsList57 = function(runtimeScene) {
 
 {
@@ -5673,11 +5675,10 @@ gdjs.Charles_95BridgeCode.eventsList57 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects1) asyncObjectsList.addObject("Button_text_21", obj);
-for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects1) asyncObjectsList.addObject("Button_text_22", obj);
+for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects1) asyncObjectsList.addObject("Button_text_11", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotificationObjects1) asyncObjectsList.addObject("Notification", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotification_9595textObjects1) asyncObjectsList.addObject("Notification_text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27416756(runtimeScene, asyncObjectsList)), 27416756, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27511068(runtimeScene, asyncObjectsList)), 27511068, asyncObjectsList);
 }
 }
 
@@ -5685,7 +5686,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 
 };gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDAction_95959595btn_9595959521Objects1Objects = Hashtable.newFrom({"Action_btn_21": gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects1});
-gdjs.Charles_95BridgeCode.asyncCallback27427396 = function (runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.asyncCallback27519628 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Hotel").setNumber(0);
 }
@@ -5701,7 +5702,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.local
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27427396, gdjs.Charles_95BridgeCode.asyncCallback27427396);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27519628, gdjs.Charles_95BridgeCode.asyncCallback27519628);
 gdjs.Charles_95BridgeCode.eventsList58 = function(runtimeScene) {
 
 {
@@ -5711,15 +5712,15 @@ gdjs.Charles_95BridgeCode.eventsList58 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27427396(runtimeScene, asyncObjectsList)), 27427396, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27519628(runtimeScene, asyncObjectsList)), 27519628, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDAction_95959595btn_9595959522Objects1Objects = Hashtable.newFrom({"Action_btn_22": gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects1});
-gdjs.Charles_95BridgeCode.asyncCallback27432236 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDAction_95959595btn_9595959511Objects1Objects = Hashtable.newFrom({"Action_btn_11": gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects1});
+gdjs.Charles_95BridgeCode.asyncCallback27524036 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Click_BG"), gdjs.Charles_95BridgeCode.GDClick_9595BGObjects4);
 gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4);
@@ -5733,7 +5734,7 @@ gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Charles_95BridgeCode.GD
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27432236, gdjs.Charles_95BridgeCode.asyncCallback27432236);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27524036, gdjs.Charles_95BridgeCode.asyncCallback27524036);
 gdjs.Charles_95BridgeCode.eventsList59 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -5744,16 +5745,15 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27432236(runtimeScene, asyncObjectsList)), 27432236, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27524036(runtimeScene, asyncObjectsList)), 27524036, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27430804 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27523132 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("Book_close_btn"), gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects3);
 gdjs.copyArray(asyncObjectsList.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Puzzle_Text"), gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects3);
@@ -5774,9 +5774,6 @@ for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3.length ;i <
 for(var i = 0, len = gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects3.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects3[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.5, false);
 }
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects3[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.5, false);
-}
 for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects3.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects3[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.5, false);
 }
@@ -5786,7 +5783,7 @@ for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects3.length 
 gdjs.Charles_95BridgeCode.eventsList59(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27430804, gdjs.Charles_95BridgeCode.asyncCallback27430804);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27523132, gdjs.Charles_95BridgeCode.asyncCallback27523132);
 gdjs.Charles_95BridgeCode.eventsList60 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -5800,14 +5797,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localV
 for (const obj of gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2) asyncObjectsList.addObject("PuzzleInput", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects2) asyncObjectsList.addObject("Puzzle_Text", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDWordpuzzleObjects2) asyncObjectsList.addObject("Wordpuzzle", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27430804(runtimeScene, asyncObjectsList)), 27430804, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27523132(runtimeScene, asyncObjectsList)), 27523132, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27429812 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27522324 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Close_btn"), gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2);
@@ -5847,7 +5844,7 @@ gdjs.copyArray(runtimeScene.getObjects("Wordpuzzle"), gdjs.Charles_95BridgeCode.
 gdjs.Charles_95BridgeCode.eventsList60(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27429812, gdjs.Charles_95BridgeCode.asyncCallback27429812);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27522324, gdjs.Charles_95BridgeCode.asyncCallback27522324);
 gdjs.Charles_95BridgeCode.eventsList61 = function(runtimeScene) {
 
 {
@@ -5857,51 +5854,78 @@ gdjs.Charles_95BridgeCode.eventsList61 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27429812(runtimeScene, asyncObjectsList)), 27429812, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27522324(runtimeScene, asyncObjectsList)), 27522324, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDHint_95959595btnObjects1Objects = Hashtable.newFrom({"Hint_btn": gdjs.Charles_95BridgeCode.GDHint_9595btnObjects1});
-gdjs.Charles_95BridgeCode.asyncCallback27433804 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDAction_95959595btn_9595959522Objects1Objects = Hashtable.newFrom({"Action_btn_22": gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects1});
+gdjs.Charles_95BridgeCode.asyncCallback27527828 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("Click_BG"), gdjs.Charles_95BridgeCode.GDClick_9595BGObjects2);
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDClick_9595BGObjects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDClick_9595BGObjects2[i].hide(false);
-}
-}
-gdjs.Charles_95BridgeCode.localVariables.length = 0;
-}
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27433804, gdjs.Charles_95BridgeCode.asyncCallback27433804);
-gdjs.Charles_95BridgeCode.eventsList62 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27433804(runtimeScene, asyncObjectsList)), 27433804, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDClose_95959595btnObjects1Objects = Hashtable.newFrom({"Close_btn": gdjs.Charles_95BridgeCode.GDClose_9595btnObjects1});
-gdjs.Charles_95BridgeCode.asyncCallback27441716 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+gdjs.copyArray(runtimeScene.getObjects("Click_BG"), gdjs.Charles_95BridgeCode.GDClick_9595BGObjects4);
 gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDClick_9595BGObjects4.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDClick_9595BGObjects4[i].hide();
+}
+}
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4[i].returnVariable(gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4[i].getVariables().getFromIndex(0)).setNumber(1);
+    gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4[i].returnVariable(gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4[i].getVariables().getFromIndex(1)).setNumber(0);
 }
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27441716, gdjs.Charles_95BridgeCode.asyncCallback27441716);
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27527828, gdjs.Charles_95BridgeCode.asyncCallback27527828);
+gdjs.Charles_95BridgeCode.eventsList62 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+{
+const parentAsyncObjectsList = asyncObjectsList;
+{
+const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27527828(runtimeScene, asyncObjectsList)), 27527828, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.Charles_95BridgeCode.asyncCallback27526844 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+gdjs.copyArray(asyncObjectsList.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3);
+
+gdjs.copyArray(asyncObjectsList.getObjects("Puzzle_Text"), gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects3);
+
+gdjs.copyArray(runtimeScene.getObjects("Submit_btn"), gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Submit_text"), gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects3);
+gdjs.copyArray(asyncObjectsList.getObjects("Wordpuzzle"), gdjs.Charles_95BridgeCode.GDWordpuzzleObjects3);
+
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDWordpuzzleObjects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDWordpuzzleObjects3[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.5, false);
+}
+for(var i = 0, len = gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects3[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.5, false);
+}
+for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.5, false);
+}
+for(var i = 0, len = gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects3[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.5, false);
+}
+for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects3[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.5, false);
+}
+}
+
+{ //Subevents
+gdjs.Charles_95BridgeCode.eventsList62(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Charles_95BridgeCode.localVariables.length = 0;
+}
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27526844, gdjs.Charles_95BridgeCode.asyncCallback27526844);
 gdjs.Charles_95BridgeCode.eventsList63 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -5912,74 +5936,112 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27441716(runtimeScene, asyncObjectsList)), 27441716, asyncObjectsList);
+for (const obj of gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2) asyncObjectsList.addObject("PuzzleInput", obj);
+for (const obj of gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects2) asyncObjectsList.addObject("Puzzle_Text", obj);
+for (const obj of gdjs.Charles_95BridgeCode.GDWordpuzzleObjects2) asyncObjectsList.addObject("Wordpuzzle", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27526844(runtimeScene, asyncObjectsList)), 27526844, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.eventsList64 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27439508);
+};gdjs.Charles_95BridgeCode.asyncCallback27525092 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+gdjs.copyArray(runtimeScene.getObjects("Close_btn"), gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2);
+gdjs.copyArray(runtimeScene.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Puzzle_Text"), gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Wordpuzzle"), gdjs.Charles_95BridgeCode.GDWordpuzzleObjects2);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2[i].hide();
 }
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3);
-gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects3);
-
-/* Reuse gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3 */
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotificationObjects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDNotificationObjects3[i].getBehavior("Tween").addObjectPositionYTween2("", 890 - (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) - 50 - (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3[0].getHeight()) - 30, "easeInOutQuad", 1, false);
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2[i].hide(false);
+}
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2[i].setDisabled(false);
+}
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2[i].setPlaceholder("Your answer");
+}
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects2[i].getBehavior("Animation").setAnimationName("Nepomuk");
+}
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDWordpuzzleObjects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDWordpuzzleObjects2[i].getBehavior("Resizable").setWidth(900);
+}
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDWordpuzzleObjects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDWordpuzzleObjects2[i].getBehavior("Tween").addObjectWidthTween2("P", 1100, "elastic", 3, false);
 }
 }
 
 { //Subevents
 gdjs.Charles_95BridgeCode.eventsList63(runtimeScene, asyncObjectsList);} //End of subevents
-}
-
-}
-
-
-};gdjs.Charles_95BridgeCode.asyncCallback27439828 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_21"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3);
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_22"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3);
-gdjs.copyArray(asyncObjectsList.getObjects("Button_text_21"), gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3);
-
-gdjs.copyArray(asyncObjectsList.getObjects("Button_text_22"), gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3);
-
-gdjs.copyArray(runtimeScene.getObjects("Mask"), gdjs.Charles_95BridgeCode.GDMaskObjects3);
-gdjs.copyArray(asyncObjectsList.getObjects("Notification_text"), gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3);
-
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
-}
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
-}
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
-}
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
-}
-}
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDMaskObjects3.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDMaskObjects3[i].getBehavior("Resizable").setHeight((( gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3[0].getY()) :gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects3[0].getY()) :gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects3[0].getY()) :gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects3[0].getY()) - (gdjs.Charles_95BridgeCode.GDMaskObjects3[i].getPointY("")) - 70);
-}
-}
-
-{ //Subevents
-gdjs.Charles_95BridgeCode.eventsList64(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27439828, gdjs.Charles_95BridgeCode.asyncCallback27439828);
-gdjs.Charles_95BridgeCode.eventsList65 = function(runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27525092, gdjs.Charles_95BridgeCode.asyncCallback27525092);
+gdjs.Charles_95BridgeCode.eventsList64 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27525092(runtimeScene, asyncObjectsList)), 27525092, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDHint_95959595btnObjects1Objects = Hashtable.newFrom({"Hint_btn": gdjs.Charles_95BridgeCode.GDHint_9595btnObjects1});
+gdjs.Charles_95BridgeCode.asyncCallback27531028 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+gdjs.copyArray(runtimeScene.getObjects("Click_BG"), gdjs.Charles_95BridgeCode.GDClick_9595BGObjects2);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDClick_9595BGObjects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDClick_9595BGObjects2[i].hide(false);
+}
+}
+gdjs.Charles_95BridgeCode.localVariables.length = 0;
+}
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27531028, gdjs.Charles_95BridgeCode.asyncCallback27531028);
+gdjs.Charles_95BridgeCode.eventsList65 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27531028(runtimeScene, asyncObjectsList)), 27531028, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDClose_95959595btnObjects1Objects = Hashtable.newFrom({"Close_btn": gdjs.Charles_95BridgeCode.GDClose_9595btnObjects1});
+gdjs.Charles_95BridgeCode.asyncCallback27537748 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4[i].returnVariable(gdjs.Charles_95BridgeCode.GDHint_9595btnObjects4[i].getVariables().getFromIndex(0)).setNumber(1);
+}
+}
+gdjs.Charles_95BridgeCode.localVariables.length = 0;
+}
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27537748, gdjs.Charles_95BridgeCode.asyncCallback27537748);
+gdjs.Charles_95BridgeCode.eventsList66 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -5989,34 +6051,100 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2) asyncObjectsList.addObject("Button_text_21", obj);
-for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2) asyncObjectsList.addObject("Button_text_22", obj);
-for (const obj of gdjs.Charles_95BridgeCode.GDNotificationObjects2) asyncObjectsList.addObject("Notification", obj);
-for (const obj of gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2) asyncObjectsList.addObject("Notification_text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27439828(runtimeScene, asyncObjectsList)), 27439828, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27537748(runtimeScene, asyncObjectsList)), 27537748, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.eventsList66 = function(runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.eventsList67 = function(runtimeScene, asyncObjectsList) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27437860);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27537284);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Button_text_21"), gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2);
-gdjs.copyArray(runtimeScene.getObjects("Button_text_22"), gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2);
+/* Reuse gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3 */
+gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects3);
+
+/* Reuse gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3 */
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotificationObjects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDNotificationObjects3[i].getBehavior("Tween").addObjectPositionYTween2("", 890 - (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) - 50 - (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3[0].getHeight()) - 30, "easeInOutQuad", 1, false);
+}
+}
+
+{ //Subevents
+gdjs.Charles_95BridgeCode.eventsList66(runtimeScene, asyncObjectsList);} //End of subevents
+}
+
+}
+
+
+};gdjs.Charles_95BridgeCode.asyncCallback27535908 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3);
+gdjs.copyArray(asyncObjectsList.getObjects("Button_text_11"), gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3);
+
+gdjs.copyArray(runtimeScene.getObjects("Mask"), gdjs.Charles_95BridgeCode.GDMaskObjects3);
+gdjs.copyArray(asyncObjectsList.getObjects("Notification_text"), gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3);
+
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
+}
+for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3[i].setY((( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getY()) + (( gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDNotification_9595textObjects3[0].getHeight()) + 90);
+}
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDMaskObjects3.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDMaskObjects3[i].getBehavior("Resizable").setHeight((( gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3.length === 0 ) ? (( gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3.length === 0 ) ? 0 :gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects3[0].getY()) :gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects3[0].getY()) - (gdjs.Charles_95BridgeCode.GDMaskObjects3[i].getPointY("")) - 70);
+}
+}
+
+{ //Subevents
+gdjs.Charles_95BridgeCode.eventsList67(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Charles_95BridgeCode.localVariables.length = 0;
+}
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27535908, gdjs.Charles_95BridgeCode.asyncCallback27535908);
+gdjs.Charles_95BridgeCode.eventsList68 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+{
+const parentAsyncObjectsList = asyncObjectsList;
+{
+const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
+for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2) asyncObjectsList.addObject("Button_text_11", obj);
+for (const obj of gdjs.Charles_95BridgeCode.GDNotificationObjects2) asyncObjectsList.addObject("Notification", obj);
+for (const obj of gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2) asyncObjectsList.addObject("Notification_text", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27535908(runtimeScene, asyncObjectsList)), 27535908, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.Charles_95BridgeCode.eventsList69 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27533940);
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Button_text_11"), gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_Head"), gdjs.Charles_95BridgeCode.GDNotification_9595HeadObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2);
-{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(1);
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotificationObjects2.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDNotificationObjects2[i].returnVariable(gdjs.Charles_95BridgeCode.GDNotificationObjects2[i].getVariables().getFromIndex(0)).setString("notification");
@@ -6031,34 +6159,26 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95Brid
 }
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[i].getBehavior("Text").setText("Wow! Charles Bridge. This ancient structure spans the width of the Vltava River. It is rumored \n that from up here you can see the site where Rabbi Loew took the mud and clay to create the \n Golem, but to see it you must first find the saint with a halo of five stars. But what was his \n name again… and which of these statues is he?");
+    gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[i].getBehavior("Text").setText("Wow! Charles Bridge. This ancient structure spans the width of the Vltava River. It is rumored \n that from up here you can see the site where Rabbi Loew took the mud and clay to create the \n Golem, but to see it, you must first find the saint with a halo of five stars. What was his \n name again… and which of these statues is he?");
 }
 }
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2[i].setCharacterSize(26);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2[i].setCharacterSize(26);
 }
 }
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2[i].setCharacterSize(26);
-}
-}
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2[i].getBehavior("Text").setText("Return to hotel");
-}
-}
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2[i].getBehavior("Text").setText("Name the saint");
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects2[i].getBehavior("Text").setText("Name the saint");
 }
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList65(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList68(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27436748 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27532668 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Click_BG"), gdjs.Charles_95BridgeCode.GDClick_9595BGObjects2);
 gdjs.copyArray(asyncObjectsList.getObjects("Close_btn"), gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2);
@@ -6078,11 +6198,11 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Charles_95BridgeCode.GD
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList66(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList69(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27436748, gdjs.Charles_95BridgeCode.asyncCallback27436748);
-gdjs.Charles_95BridgeCode.eventsList67 = function(runtimeScene) {
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27532668, gdjs.Charles_95BridgeCode.asyncCallback27532668);
+gdjs.Charles_95BridgeCode.eventsList70 = function(runtimeScene) {
 
 {
 
@@ -6092,7 +6212,7 @@ gdjs.Charles_95BridgeCode.eventsList67 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 for (const obj of gdjs.Charles_95BridgeCode.GDClose_9595btnObjects1) asyncObjectsList.addObject("Close_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27436748(runtimeScene, asyncObjectsList)), 27436748, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27532668(runtimeScene, asyncObjectsList)), 27532668, asyncObjectsList);
 }
 }
 
@@ -6100,12 +6220,12 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 
 };gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDSubmit_95959595btnObjects1Objects = Hashtable.newFrom({"Submit_btn": gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects1});
-gdjs.Charles_95BridgeCode.asyncCallback27449252 = function (runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.asyncCallback27547908 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27449252, gdjs.Charles_95BridgeCode.asyncCallback27449252);
-gdjs.Charles_95BridgeCode.eventsList68 = function(runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27547908, gdjs.Charles_95BridgeCode.asyncCallback27547908);
+gdjs.Charles_95BridgeCode.eventsList71 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -6115,14 +6235,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27449252(runtimeScene, asyncObjectsList)), 27449252, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27547908(runtimeScene, asyncObjectsList)), 27547908, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27449324 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27547076 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects4);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects4);
@@ -6135,11 +6255,11 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification_text"), gdjs.Charles_95
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList68(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList71(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27449324, gdjs.Charles_95BridgeCode.asyncCallback27449324);
-gdjs.Charles_95BridgeCode.eventsList69 = function(runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27547076, gdjs.Charles_95BridgeCode.asyncCallback27547076);
+gdjs.Charles_95BridgeCode.eventsList72 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -6151,14 +6271,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 /* Don't save Notification as it will be provided by the parent asyncObjectsList. */
 /* Don't save Notification_text as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27449324(runtimeScene, asyncObjectsList)), 27449324, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27547076(runtimeScene, asyncObjectsList)), 27547076, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27448300 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27545492 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Action_btn_21"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959521Objects3);
 
@@ -6175,11 +6295,11 @@ gdjs.copyArray(runtimeScene.getObjects("Mask"), gdjs.Charles_95BridgeCode.GDMask
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList69(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList72(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27448300, gdjs.Charles_95BridgeCode.asyncCallback27448300);
-gdjs.Charles_95BridgeCode.eventsList70 = function(runtimeScene, asyncObjectsList) {
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27545492, gdjs.Charles_95BridgeCode.asyncCallback27545492);
+gdjs.Charles_95BridgeCode.eventsList73 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -6195,14 +6315,14 @@ for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2) as
 for (const obj of gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2) asyncObjectsList.addObject("Button_text_22", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotificationObjects2) asyncObjectsList.addObject("Notification", obj);
 for (const obj of gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2) asyncObjectsList.addObject("Notification_text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27448300(runtimeScene, asyncObjectsList)), 27448300, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27545492(runtimeScene, asyncObjectsList)), 27545492, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.eventsList71 = function(runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.eventsList74 = function(runtimeScene, asyncObjectsList) {
 {
 
 let elseEventsChainSatisfied = false;
@@ -6271,6 +6391,58 @@ if(isConditionTrue_1) {
 }
 }
 {
+gdjs.copyArray(asyncObjectsList.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4);
+
+{isConditionTrue_1 = (gdjs.evtTools.string.toUpperCase((( gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4.length === 0 ) ? "" :gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[0].getBehavior("Text").getText())) == "SAINT JOHN OF NEPOMUK");
+}
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4.length; j < jLen ; ++j) {
+        if ( gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3_1final.indexOf(gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[j]) === -1 )
+            gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3_1final.push(gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[j]);
+    }
+}
+}
+{
+gdjs.copyArray(asyncObjectsList.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4);
+
+{isConditionTrue_1 = (gdjs.evtTools.string.toUpperCase((( gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4.length === 0 ) ? "" :gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[0].getBehavior("Text").getText())) == "ST JOHN OF NEPOMUK");
+}
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4.length; j < jLen ; ++j) {
+        if ( gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3_1final.indexOf(gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[j]) === -1 )
+            gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3_1final.push(gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[j]);
+    }
+}
+}
+{
+gdjs.copyArray(asyncObjectsList.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4);
+
+{isConditionTrue_1 = (gdjs.evtTools.string.toUpperCase((( gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4.length === 0 ) ? "" :gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[0].getBehavior("Text").getText())) == "JOHN OF NEPOMUK");
+}
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4.length; j < jLen ; ++j) {
+        if ( gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3_1final.indexOf(gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[j]) === -1 )
+            gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3_1final.push(gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[j]);
+    }
+}
+}
+{
+gdjs.copyArray(asyncObjectsList.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4);
+
+{isConditionTrue_1 = (gdjs.evtTools.string.toUpperCase((( gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4.length === 0 ) ? "" :gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[0].getBehavior("Text").getText())) == "JAN NEPOMUCKÝ");
+}
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4.length; j < jLen ; ++j) {
+        if ( gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3_1final.indexOf(gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[j]) === -1 )
+            gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3_1final.push(gdjs.Charles_95BridgeCode.GDPuzzleInputObjects4[j]);
+    }
+}
+}
+{
 gdjs.copyArray(gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3_1final, gdjs.Charles_95BridgeCode.GDPuzzleInputObjects3);
 }
 }
@@ -6298,6 +6470,8 @@ gdjs.copyArray(runtimeScene.getObjects("Button_text_22"), gdjs.Charles_95BridgeC
 gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_Head"), gdjs.Charles_95BridgeCode.GDNotification_9595HeadObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2);
+{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(2);
+}
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotificationObjects2.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDNotificationObjects2[i].returnVariable(gdjs.Charles_95BridgeCode.GDNotificationObjects2[i].getVariables().getFromIndex(0)).setString("notification");
 }
@@ -6308,6 +6482,18 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95Brid
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDNotification_9595textObjects2[i].getBehavior("Text").setText("I can’t seem to think of the answer… Maybe I should first check the hint button \nor head back to the hotel and read the information that was left for me.");
+}
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2[i].setCharacterSize(26);
+}
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2[i].setCharacterSize(26);
+}
+}
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects2[i].getBehavior("Text").setText("Return to hotel");
 }
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.length ;i < len;++i) {
@@ -6329,7 +6515,7 @@ for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects2.
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList70(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList73(runtimeScene, asyncObjectsList);} //End of subevents
 elseEventsChainSatisfied = true;
 }
 }
@@ -6338,7 +6524,7 @@ elseEventsChainSatisfied = true;
 
 }
 
-};gdjs.Charles_95BridgeCode.asyncCallback27444316 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27539844 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Close_btn"), gdjs.Charles_95BridgeCode.GDClose_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Charles_95BridgeCode.GDMenu_9595btnObjects2);
@@ -6352,11 +6538,11 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Charles_95BridgeCode.GD
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList71(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList74(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27444316, gdjs.Charles_95BridgeCode.asyncCallback27444316);
-gdjs.Charles_95BridgeCode.eventsList72 = function(runtimeScene) {
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27539844, gdjs.Charles_95BridgeCode.asyncCallback27539844);
+gdjs.Charles_95BridgeCode.eventsList75 = function(runtimeScene) {
 
 {
 
@@ -6366,14 +6552,14 @@ gdjs.Charles_95BridgeCode.eventsList72 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 for (const obj of gdjs.Charles_95BridgeCode.GDPuzzleInputObjects1) asyncObjectsList.addObject("PuzzleInput", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27444316(runtimeScene, asyncObjectsList)), 27444316, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27539844(runtimeScene, asyncObjectsList)), 27539844, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.asyncCallback27450780 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Charles_95BridgeCode.asyncCallback27548812 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), false);
 }
@@ -6381,8 +6567,8 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95BridgeCode.local
 }
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
-gdjs.Charles_95BridgeCode.idToCallbackMap.set(27450780, gdjs.Charles_95BridgeCode.asyncCallback27450780);
-gdjs.Charles_95BridgeCode.eventsList73 = function(runtimeScene) {
+gdjs.Charles_95BridgeCode.idToCallbackMap.set(27548812, gdjs.Charles_95BridgeCode.asyncCallback27548812);
+gdjs.Charles_95BridgeCode.eventsList76 = function(runtimeScene) {
 
 {
 
@@ -6391,14 +6577,14 @@ gdjs.Charles_95BridgeCode.eventsList73 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95BridgeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27450780(runtimeScene, asyncObjectsList)), 27450780, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Charles_95BridgeCode.asyncCallback27548812(runtimeScene, asyncObjectsList)), 27548812, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Charles_95BridgeCode.eventsList74 = function(runtimeScene) {
+};gdjs.Charles_95BridgeCode.eventsList77 = function(runtimeScene) {
 
 {
 
@@ -6408,7 +6594,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29584716);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(21).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29704292);
+}
 }
 }
 if (isConditionTrue_0) {
@@ -6510,7 +6701,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29399524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29517500);
 }
 }
 if (isConditionTrue_0) {
@@ -6676,7 +6867,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29429396);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29547372);
 }
 }
 if (isConditionTrue_0) {
@@ -6709,7 +6900,6 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Charles_95BridgeCode.GD
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Book_close_btn"), gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Puzzle_Text"), gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Submit_btn"), gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects1);
@@ -6750,14 +6940,6 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects1.l
     }
 }
 gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects1.length = k;
-for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1.length;i<l;++i) {
-    if ( gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1[i].getBehavior("Opacity").getOpacity() > 200 ) {
-        isConditionTrue_0 = true;
-        gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1[k] = gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1[i];
-        ++k;
-    }
-}
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1.length = k;
 for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1.length;i<l;++i) {
     if ( gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1[i].getBehavior("Opacity").getOpacity() > 200 ) {
         isConditionTrue_0 = true;
@@ -6786,7 +6968,6 @@ gdjs.copyArray(runtimeScene.getObjects("Click_outside"), gdjs.Charles_95BridgeCo
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Book_close_btn"), gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Puzzle_Text"), gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Submit_btn"), gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects1);
@@ -6827,14 +7008,6 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects1.l
     }
 }
 gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects1.length = k;
-for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1.length;i<l;++i) {
-    if ( gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1[i].getBehavior("Opacity").getOpacity() < 50 ) {
-        isConditionTrue_0 = true;
-        gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1[k] = gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1[i];
-        ++k;
-    }
-}
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1.length = k;
 for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1.length;i<l;++i) {
     if ( gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1[i].getBehavior("Opacity").getOpacity() < 50 ) {
         isConditionTrue_0 = true;
@@ -6845,7 +7018,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1.l
 gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29432100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29550076);
 }
 }
 if (isConditionTrue_0) {
@@ -6874,7 +7047,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27413972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27507268);
 }
 }
 if (isConditionTrue_0) {
@@ -6901,19 +7074,18 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27411204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27504308);
 }
 }
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Button_text_21"), gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects1);
-gdjs.copyArray(runtimeScene.getObjects("Button_text_22"), gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects1);
+gdjs.copyArray(runtimeScene.getObjects("Button_text_11"), gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_Head"), gdjs.Charles_95BridgeCode.GDNotification_9595HeadObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Charles_95BridgeCode.GDNotification_9595down_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95BridgeCode.GDNotification_9595textObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(1);
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotificationObjects1.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDNotificationObjects1[i].returnVariable(gdjs.Charles_95BridgeCode.GDNotificationObjects1[i].getVariables().getFromIndex(0)).setString("notification");
@@ -6928,23 +7100,15 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95Brid
 }
 }
 {for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotification_9595textObjects1.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDNotification_9595textObjects1[i].getBehavior("Text").setText("Wow! Charles Bridge. This ancient structure spans the width of the Vltava River. It is rumored \n that from up here you can see the site where Rabbi Loew took the mud and clay to create the \n Golem, but to see it you must first find the saint with a halo of five stars. But what was his \n name again… and which of these statues is he?");
+    gdjs.Charles_95BridgeCode.GDNotification_9595textObjects1[i].getBehavior("Text").setText("Wow! Charles Bridge. This ancient structure spans the width of the Vltava River. It is rumored \n that from up here you can see the site where Rabbi Loew took the mud and clay to create the \n Golem, but to see it, you must first find the saint with a halo of five stars. What was his \n name again… and which of these statues is he?");
 }
 }
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects1.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects1[i].setCharacterSize(26);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects1.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects1[i].setCharacterSize(26);
 }
 }
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects1.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects1[i].setCharacterSize(26);
-}
-}
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects1.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959521Objects1[i].getBehavior("Text").setText("Return to hotel");
-}
-}
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects1.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDButton_9595text_959522Objects1[i].getBehavior("Text").setText("Name the saint");
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects1.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDButton_9595text_959511Objects1[i].getBehavior("Text").setText("Name the saint");
 }
 }
 
@@ -6967,7 +7131,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27426652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27519300);
 }
 }
 }
@@ -6987,17 +7151,17 @@ gdjs.Charles_95BridgeCode.eventsList58(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Action_btn_22"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects1);
+gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959511Objects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDAction_95959595btn_9595959522Objects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDAction_95959595btn_9595959511Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27429284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27522012);
 }
 }
 }
@@ -7010,6 +7174,36 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Charles_95BridgeCod
 
 { //Subevents
 gdjs.Charles_95BridgeCode.eventsList61(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Action_btn_22"), gdjs.Charles_95BridgeCode.GDAction_9595btn_959522Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Charles_95BridgeCode.mapOfGDgdjs_9546Charles_959595BridgeCode_9546GDAction_95959595btn_9595959522Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27525740);
+}
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Charles_95BridgeCode.GDNotificationObjects1);
+{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDNotificationObjects1.length ;i < len;++i) {
+    gdjs.Charles_95BridgeCode.GDNotificationObjects1[i].getBehavior("Tween").addObjectPositionYTween2("", 1100, "easeInOutQuad", 1, false);
+}
+}
+
+{ //Subevents
+gdjs.Charles_95BridgeCode.eventsList64(runtimeScene);} //End of subevents
 }
 
 }
@@ -7037,7 +7231,7 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDHint_9595btnObjects1.leng
 gdjs.Charles_95BridgeCode.GDHint_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27433308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27529748);
 }
 }
 }
@@ -7064,7 +7258,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Charles_95Brid
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList62(runtimeScene);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList65(runtimeScene);} //End of subevents
 }
 
 }
@@ -7082,12 +7276,11 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27436060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27532108);
 }
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Book_close_btn"), gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Puzzle_Text"), gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Submit_btn"), gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects1);
@@ -7109,9 +7302,6 @@ for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects1.length ;i <
 for(var i = 0, len = gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects1.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects1[i].getBehavior("Tween").addObjectOpacityTween2("P", 0, "linear", 0.5, false);
 }
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1[i].getBehavior("Tween").addObjectOpacityTween2("P", 0, "linear", 0.5, false);
-}
 for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1[i].getBehavior("Tween").addObjectOpacityTween2("P", 0, "linear", 0.5, false);
 }
@@ -7122,7 +7312,7 @@ for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1.length 
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList67(runtimeScene);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList70(runtimeScene);} //End of subevents
 }
 
 }
@@ -7150,13 +7340,12 @@ for (var i = 0, k = 0, l = gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects1.le
 gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27443108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27538812);
 }
 }
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Book_close_btn"), gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode.GDPuzzleInputObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Puzzle_Text"), gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1);
 /* Reuse gdjs.Charles_95BridgeCode.GDSubmit_9595btnObjects1 */
@@ -7178,9 +7367,6 @@ for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects1.length ;i <
 for(var i = 0, len = gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects1.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDSubmit_9595textObjects1[i].getBehavior("Tween").addObjectOpacityTween2("P", 0, "linear", 0.5, false);
 }
-for(var i = 0, len = gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1[i].getBehavior("Tween").addObjectOpacityTween2("P", 0, "linear", 0.5, false);
-}
 for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1.length ;i < len;++i) {
     gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1[i].getBehavior("Tween").addObjectOpacityTween2("P", 0, "linear", 0.5, false);
 }
@@ -7191,7 +7377,7 @@ for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzle_9595TextObjects1.length 
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList72(runtimeScene);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList75(runtimeScene);} //End of subevents
 }
 
 }
@@ -7206,7 +7392,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27450652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27548356);
 }
 }
 if (isConditionTrue_0) {
@@ -7217,7 +7403,7 @@ gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.Charles_95BridgeCode.GDDa
 }
 
 { //Subevents
-gdjs.Charles_95BridgeCode.eventsList73(runtimeScene);} //End of subevents
+gdjs.Charles_95BridgeCode.eventsList76(runtimeScene);} //End of subevents
 }
 
 }
@@ -7318,11 +7504,6 @@ gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects2.length = 0;
 gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects3.length = 0;
 gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects4.length = 0;
 gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects5.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects2.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects3.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects4.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects5.length = 0;
 gdjs.Charles_95BridgeCode.GDBook_9595left_9595btnObjects1.length = 0;
 gdjs.Charles_95BridgeCode.GDBook_9595left_9595btnObjects2.length = 0;
 gdjs.Charles_95BridgeCode.GDBook_9595left_9595btnObjects3.length = 0;
@@ -7494,7 +7675,7 @@ gdjs.Charles_95BridgeCode.GDClick_9595outsideObjects3.length = 0;
 gdjs.Charles_95BridgeCode.GDClick_9595outsideObjects4.length = 0;
 gdjs.Charles_95BridgeCode.GDClick_9595outsideObjects5.length = 0;
 
-gdjs.Charles_95BridgeCode.eventsList74(runtimeScene);
+gdjs.Charles_95BridgeCode.eventsList77(runtimeScene);
 gdjs.Charles_95BridgeCode.GDBackgroundObjects1.length = 0;
 gdjs.Charles_95BridgeCode.GDBackgroundObjects2.length = 0;
 gdjs.Charles_95BridgeCode.GDBackgroundObjects3.length = 0;
@@ -7585,11 +7766,6 @@ gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects2.length = 0;
 gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects3.length = 0;
 gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects4.length = 0;
 gdjs.Charles_95BridgeCode.GDPhoto_9595right_9595btnObjects5.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects1.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects2.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects3.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects4.length = 0;
-gdjs.Charles_95BridgeCode.GDBook_9595close_9595btnObjects5.length = 0;
 gdjs.Charles_95BridgeCode.GDBook_9595left_9595btnObjects1.length = 0;
 gdjs.Charles_95BridgeCode.GDBook_9595left_9595btnObjects2.length = 0;
 gdjs.Charles_95BridgeCode.GDBook_9595left_9595btnObjects3.length = 0;
