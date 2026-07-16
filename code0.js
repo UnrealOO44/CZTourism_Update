@@ -13,6 +13,8 @@ gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects1= [];
 gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects2= [];
 gdjs.Loading_95ScreenCode.GDPart_9595MaskObjects1= [];
 gdjs.Loading_95ScreenCode.GDPart_9595MaskObjects2= [];
+gdjs.Loading_95ScreenCode.GDGamelogoObjects1= [];
+gdjs.Loading_95ScreenCode.GDGamelogoObjects2= [];
 gdjs.Loading_95ScreenCode.GDAction_9595btn_959511Objects1= [];
 gdjs.Loading_95ScreenCode.GDAction_9595btn_959511Objects2= [];
 gdjs.Loading_95ScreenCode.GDButton_9595text_959511Objects1= [];
@@ -115,7 +117,7 @@ gdjs.Loading_95ScreenCode.GDClick_9595outsideObjects1= [];
 gdjs.Loading_95ScreenCode.GDClick_9595outsideObjects2= [];
 
 
-gdjs.Loading_95ScreenCode.asyncCallback29704364 = function (runtimeScene, asyncObjectsList) {
+gdjs.Loading_95ScreenCode.asyncCallback29729676 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Loading_95ScreenCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Loading_95ScreenCode.GDDarkenObjects2);
 
@@ -125,7 +127,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Loading_95ScreenCode.
 }
 gdjs.Loading_95ScreenCode.localVariables.length = 0;
 }
-gdjs.Loading_95ScreenCode.idToCallbackMap.set(29704364, gdjs.Loading_95ScreenCode.asyncCallback29704364);
+gdjs.Loading_95ScreenCode.idToCallbackMap.set(29729676, gdjs.Loading_95ScreenCode.asyncCallback29729676);
 gdjs.Loading_95ScreenCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -136,7 +138,7 @@ gdjs.Loading_95ScreenCode.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Loading_95ScreenCode.localVariables);
 for (const obj of gdjs.Loading_95ScreenCode.GDDarkenObjects1) asyncObjectsList.addObject("Darken", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Loading_95ScreenCode.asyncCallback29704364(runtimeScene, asyncObjectsList)), 29704364, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Loading_95ScreenCode.asyncCallback29729676(runtimeScene, asyncObjectsList)), 29729676, asyncObjectsList);
 }
 }
 
@@ -148,7 +150,7 @@ gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDLoading
 gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDVerticalBubblesObjects1Objects = Hashtable.newFrom({"VerticalBubbles": gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects1});
 gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDPart_95959595MaskObjects1Objects = Hashtable.newFrom({"Part_Mask": gdjs.Loading_95ScreenCode.GDPart_9595MaskObjects1});
 gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDLoadingFillMaskObjects1Objects = Hashtable.newFrom({"LoadingFillMask": gdjs.Loading_95ScreenCode.GDLoadingFillMaskObjects1});
-gdjs.Loading_95ScreenCode.asyncCallback26510012 = function (runtimeScene, asyncObjectsList) {
+gdjs.Loading_95ScreenCode.asyncCallback26530964 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Loading_95ScreenCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(false);
 }
@@ -156,7 +158,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Loading_95ScreenCode.local
 }
 gdjs.Loading_95ScreenCode.localVariables.length = 0;
 }
-gdjs.Loading_95ScreenCode.idToCallbackMap.set(26510012, gdjs.Loading_95ScreenCode.asyncCallback26510012);
+gdjs.Loading_95ScreenCode.idToCallbackMap.set(26530964, gdjs.Loading_95ScreenCode.asyncCallback26530964);
 gdjs.Loading_95ScreenCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -166,7 +168,7 @@ gdjs.Loading_95ScreenCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Loading_95ScreenCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Loading_95ScreenCode.asyncCallback26510012(runtimeScene, asyncObjectsList)), 26510012, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Loading_95ScreenCode.asyncCallback26530964(runtimeScene, asyncObjectsList)), 26530964, asyncObjectsList);
 }
 }
 
@@ -187,7 +189,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29704292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29729604);
 }
 }
 }
@@ -213,7 +215,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26513140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26534092);
 }
 }
 if (isConditionTrue_0) {
@@ -291,7 +293,7 @@ for (var i = 0, k = 0, l = gdjs.Loading_95ScreenCode.GDLoadingFillMaskObjects1.l
 gdjs.Loading_95ScreenCode.GDLoadingFillMaskObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26521148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26542100);
 }
 }
 if (isConditionTrue_0) {
@@ -313,7 +315,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26522868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26543820);
 }
 }
 if (isConditionTrue_0) {
@@ -363,6 +365,8 @@ gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects1.length = 0;
 gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects2.length = 0;
 gdjs.Loading_95ScreenCode.GDPart_9595MaskObjects1.length = 0;
 gdjs.Loading_95ScreenCode.GDPart_9595MaskObjects2.length = 0;
+gdjs.Loading_95ScreenCode.GDGamelogoObjects1.length = 0;
+gdjs.Loading_95ScreenCode.GDGamelogoObjects2.length = 0;
 gdjs.Loading_95ScreenCode.GDAction_9595btn_959511Objects1.length = 0;
 gdjs.Loading_95ScreenCode.GDAction_9595btn_959511Objects2.length = 0;
 gdjs.Loading_95ScreenCode.GDButton_9595text_959511Objects1.length = 0;
@@ -477,6 +481,8 @@ gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects1.length = 0;
 gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects2.length = 0;
 gdjs.Loading_95ScreenCode.GDPart_9595MaskObjects1.length = 0;
 gdjs.Loading_95ScreenCode.GDPart_9595MaskObjects2.length = 0;
+gdjs.Loading_95ScreenCode.GDGamelogoObjects1.length = 0;
+gdjs.Loading_95ScreenCode.GDGamelogoObjects2.length = 0;
 gdjs.Loading_95ScreenCode.GDAction_9595btn_959511Objects1.length = 0;
 gdjs.Loading_95ScreenCode.GDAction_9595btn_959511Objects2.length = 0;
 gdjs.Loading_95ScreenCode.GDButton_9595text_959511Objects1.length = 0;
