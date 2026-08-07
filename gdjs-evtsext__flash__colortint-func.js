@@ -1,57 +1,49 @@
 
-if (typeof gdjs.evtsExt__SpriteMasking__Mask !== "undefined") {
-  gdjs.evtsExt__SpriteMasking__Mask.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__Flash__ColorTint !== "undefined") {
+  gdjs.evtsExt__Flash__ColorTint.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__SpriteMasking__Mask = {};
-gdjs.evtsExt__SpriteMasking__Mask.idToCallbackMap = new Map();
-gdjs.evtsExt__SpriteMasking__Mask.GDMaskedObjects1= [];
-gdjs.evtsExt__SpriteMasking__Mask.GDMaskObjects1= [];
+gdjs.evtsExt__Flash__ColorTint = {};
+gdjs.evtsExt__Flash__ColorTint.idToCallbackMap = new Map();
+gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__SpriteMasking__Mask.userFunc0x1f8cf08 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Flash__ColorTint.userFunc0x136cd08 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
-const maskObject = eventsFunctionContext.getObjects("Mask")[0];
-if (!maskObject) return;
-
-const maskedObjects = eventsFunctionContext.getObjects("Masked");
-for (const maskedObject of maskedObjects) {
-    const maskedRenderer = maskedObject.getRendererObject(); 
-    maskedRenderer.mask = maskObject.getRendererObject();
-}
-
-
+/** @type {gdjs.SpriteRuntimeObject} */
+const tintedObject = objects[0];
+const tint = tintedObject.getColor();
+eventsFunctionContext.returnValue = tint;
 };
-gdjs.evtsExt__SpriteMasking__Mask.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Flash__ColorTint.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1);
 
-const objects = [];
-gdjs.evtsExt__SpriteMasking__Mask.userFunc0x1f8cf08(runtimeScene, objects, eventsFunctionContext);
+const objects = gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1;
+gdjs.evtsExt__Flash__ColorTint.userFunc0x136cd08(runtimeScene, objects, eventsFunctionContext);
 
 }
 
 
 };
 
-gdjs.evtsExt__SpriteMasking__Mask.func = function(runtimeScene, Masked, Mask, parentEventsFunctionContext) {
+gdjs.evtsExt__Flash__ColorTint.func = function(runtimeScene, Object, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
-"Masked": Masked
-, "Mask": Mask
+"Object": Object
 },
   _objectArraysMap: {
-"Masked": gdjs.objectsListsToArray(Masked)
-, "Mask": gdjs.objectsListsToArray(Mask)
+"Object": gdjs.objectsListsToArray(Object)
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteMasking"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteMasking"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Flash"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Flash"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -98,15 +90,13 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
-gdjs.evtsExt__SpriteMasking__Mask.GDMaskedObjects1.length = 0;
-gdjs.evtsExt__SpriteMasking__Mask.GDMaskObjects1.length = 0;
+gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1.length = 0;
 
-gdjs.evtsExt__SpriteMasking__Mask.eventsList0(runtimeScene, eventsFunctionContext);
-gdjs.evtsExt__SpriteMasking__Mask.GDMaskedObjects1.length = 0;
-gdjs.evtsExt__SpriteMasking__Mask.GDMaskObjects1.length = 0;
+gdjs.evtsExt__Flash__ColorTint.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1.length = 0;
 
 
-return;
+return "" + eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__SpriteMasking__Mask.registeredGdjsCallbacks = [];
+gdjs.evtsExt__Flash__ColorTint.registeredGdjsCallbacks = [];

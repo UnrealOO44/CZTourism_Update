@@ -9,7 +9,7 @@ gdjs.evtsExt__Sticker__DefineHelperClasses = {};
 gdjs.evtsExt__Sticker__DefineHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0x7c3ee8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0x1968160 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs._stickerExtension) {
     return;
@@ -267,7 +267,7 @@ gdjs.evtsExt__Sticker__DefineHelperClasses.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0x7c3ee8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0x1968160(runtimeScene, eventsFunctionContext);
 
 }
 

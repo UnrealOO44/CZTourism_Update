@@ -105,7 +105,7 @@ gdjs.Orloj_95Clock_95VideoCode.GDClick_9595outsideObjects1= [];
 gdjs.Orloj_95Clock_95VideoCode.GDClick_9595outsideObjects2= [];
 
 
-gdjs.Orloj_95Clock_95VideoCode.asyncCallback29729676 = function (runtimeScene, asyncObjectsList) {
+gdjs.Orloj_95Clock_95VideoCode.asyncCallback30429100 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Orloj_95Clock_95VideoCode.GDDarkenObjects2);
 
@@ -115,7 +115,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Orloj_95Clock_95Video
 }
 gdjs.Orloj_95Clock_95VideoCode.localVariables.length = 0;
 }
-gdjs.Orloj_95Clock_95VideoCode.idToCallbackMap.set(29729676, gdjs.Orloj_95Clock_95VideoCode.asyncCallback29729676);
+gdjs.Orloj_95Clock_95VideoCode.idToCallbackMap.set(30429100, gdjs.Orloj_95Clock_95VideoCode.asyncCallback30429100);
 gdjs.Orloj_95Clock_95VideoCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -126,14 +126,14 @@ gdjs.Orloj_95Clock_95VideoCode.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.localVariables);
 for (const obj of gdjs.Orloj_95Clock_95VideoCode.GDDarkenObjects1) asyncObjectsList.addObject("Darken", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Orloj_95Clock_95VideoCode.asyncCallback29729676(runtimeScene, asyncObjectsList)), 29729676, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Orloj_95Clock_95VideoCode.asyncCallback30429100(runtimeScene, asyncObjectsList)), 30429100, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Orloj_95Clock_95VideoCode.asyncCallback27963796 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Orloj_95Clock_95VideoCode.asyncCallback28654220 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(false);
 }
@@ -141,7 +141,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.
 }
 gdjs.Orloj_95Clock_95VideoCode.localVariables.length = 0;
 }
-gdjs.Orloj_95Clock_95VideoCode.idToCallbackMap.set(27963796, gdjs.Orloj_95Clock_95VideoCode.asyncCallback27963796);
+gdjs.Orloj_95Clock_95VideoCode.idToCallbackMap.set(28654220, gdjs.Orloj_95Clock_95VideoCode.asyncCallback28654220);
 gdjs.Orloj_95Clock_95VideoCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -151,7 +151,7 @@ gdjs.Orloj_95Clock_95VideoCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Orloj_95Clock_95VideoCode.asyncCallback27963796(runtimeScene, asyncObjectsList)), 27963796, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Orloj_95Clock_95VideoCode.asyncCallback28654220(runtimeScene, asyncObjectsList)), 28654220, asyncObjectsList);
 }
 }
 
@@ -172,7 +172,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29729604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(30429028);
 }
 }
 }
@@ -216,7 +216,7 @@ for (var i = 0, k = 0, l = gdjs.Orloj_95Clock_95VideoCode.GDOrlojObjects1.length
 gdjs.Orloj_95Clock_95VideoCode.GDOrlojObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27961132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28650916);
 }
 }
 }
@@ -247,7 +247,7 @@ for (var i = 0, k = 0, l = gdjs.Orloj_95Clock_95VideoCode.GDOrlojObjects1.length
 gdjs.Orloj_95Clock_95VideoCode.GDOrlojObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27961956);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28652252);
 }
 }
 if (isConditionTrue_0) {
@@ -267,7 +267,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27963116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28653428);
 }
 }
 if (isConditionTrue_0) {
