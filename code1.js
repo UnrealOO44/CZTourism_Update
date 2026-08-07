@@ -1666,7 +1666,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 }
 
 
-};gdjs.HelpCode.userFunc0xde4da8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HelpCode.userFunc0x12ee370 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Request fullscreen on first touch/interaction
 const element = document.documentElement;
@@ -1675,15 +1675,13 @@ if (element.requestFullscreen) {
 } else if (element.webkitRequestFullscreen) { /* Safari/iOS fallback syntax */
     element.webkitRequestFullscreen();
 }
-// Lock orientation if supported
-screen.lockOrientation("landscape")
 };
 gdjs.HelpCode.eventsList50 = function(runtimeScene, asyncObjectsList) {
 
 {
 
 
-gdjs.HelpCode.userFunc0xde4da8(runtimeScene);
+gdjs.HelpCode.userFunc0x12ee370(runtimeScene);
 
 }
 
