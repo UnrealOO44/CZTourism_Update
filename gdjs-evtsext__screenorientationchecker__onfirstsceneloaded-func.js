@@ -1,49 +1,41 @@
 
-if (typeof gdjs.evtsExt__Flash__ColorTint !== "undefined") {
-  gdjs.evtsExt__Flash__ColorTint.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded !== "undefined") {
+  gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Flash__ColorTint = {};
-gdjs.evtsExt__Flash__ColorTint.idToCallbackMap = new Map();
-gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1= [];
+gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded = {};
+gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Flash__ColorTint.userFunc0x12be360 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
-"use strict";
-/** @type {gdjs.SpriteRuntimeObject} */
-const tintedObject = objects[0];
-const tint = tintedObject.getColor();
-eventsFunctionContext.returnValue = tint;
-};
-gdjs.evtsExt__Flash__ColorTint.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1);
 
-const objects = gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1;
-gdjs.evtsExt__Flash__ColorTint.userFunc0x12be360(runtimeScene, objects, eventsFunctionContext);
+let isConditionTrue_0 = false;
+{
+{eventsFunctionContext.globalVariablesForExtension.getFromIndex(0).setString(gdjs.evtsExt__ScreenOrientationChecker__ProjectOrientation.func(runtimeScene, eventsFunctionContext));
+}
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__Flash__ColorTint.func = function(runtimeScene, Object, parentEventsFunctionContext) {
+gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.func = function(runtimeScene, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
-"Object": Object
 },
   _objectArraysMap: {
-"Object": gdjs.objectsListsToArray(Object)
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Flash"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Flash"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("ScreenOrientationChecker"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("ScreenOrientationChecker"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -90,13 +82,15 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
-gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1.length = 0;
 
-gdjs.evtsExt__Flash__ColorTint.eventsList0(runtimeScene, eventsFunctionContext);
-gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1.length = 0;
+gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return "" + eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__Flash__ColorTint.registeredGdjsCallbacks = [];
+gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.registeredGdjsCallbacks = [];
+gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.registeredGdjsCallbacks.push((runtimeScene) => {
+    gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.func(runtimeScene, runtimeScene);
+})
+gdjs.registerFirstRuntimeSceneLoadedCallback(gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.registeredGdjsCallbacks[gdjs.evtsExt__ScreenOrientationChecker__onFirstSceneLoaded.registeredGdjsCallbacks.length - 1]);
