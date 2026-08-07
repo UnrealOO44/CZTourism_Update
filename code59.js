@@ -2089,6 +2089,10 @@ gdjs.SY_95StartCode.eventsList51(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.runtimeScene.getSceneName(runtimeScene) == "SY_Start");
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 {let isConditionTrue_1 = false;
 isConditionTrue_0 = false;
 {
@@ -2104,6 +2108,7 @@ if(isConditionTrue_1) {
 }
 }
 {
+}
 }
 }
 if (isConditionTrue_0) {

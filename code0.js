@@ -152,7 +152,7 @@ gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDLoading
 gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDVerticalBubblesObjects1Objects = Hashtable.newFrom({"VerticalBubbles": gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects1});
 gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDPart_95959595MaskObjects1Objects = Hashtable.newFrom({"Part_Mask": gdjs.Loading_95ScreenCode.GDPart_9595MaskObjects1});
 gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDLoadingFillMaskObjects1Objects = Hashtable.newFrom({"LoadingFillMask": gdjs.Loading_95ScreenCode.GDLoadingFillMaskObjects1});
-gdjs.Loading_95ScreenCode.userFunc0xb70d48 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Loading_95ScreenCode.userFunc0x140ae18 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // Function to trigger fullscreen on a specific element
   const elem = document.documentElement;
@@ -169,7 +169,7 @@ gdjs.Loading_95ScreenCode.eventsList1 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("Background"), gdjs.Loading_95ScreenCode.GDBackgroundObjects1);
 
 const objects = gdjs.Loading_95ScreenCode.GDBackgroundObjects1;
-gdjs.Loading_95ScreenCode.userFunc0xb70d48(runtimeScene, objects);
+gdjs.Loading_95ScreenCode.userFunc0x140ae18(runtimeScene, objects);
 
 }
 

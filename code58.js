@@ -4560,6 +4560,8 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(6);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(0);
+}
 }
 
 }
