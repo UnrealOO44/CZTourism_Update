@@ -152,7 +152,30 @@ gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDLoading
 gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDVerticalBubblesObjects1Objects = Hashtable.newFrom({"VerticalBubbles": gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects1});
 gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDPart_95959595MaskObjects1Objects = Hashtable.newFrom({"Part_Mask": gdjs.Loading_95ScreenCode.GDPart_9595MaskObjects1});
 gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDLoadingFillMaskObjects1Objects = Hashtable.newFrom({"LoadingFillMask": gdjs.Loading_95ScreenCode.GDLoadingFillMaskObjects1});
-gdjs.Loading_95ScreenCode.userFunc0x140ae18 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Loading_95ScreenCode.userFunc0xaa65a8 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+// Request fullscreen on first touch/interaction
+const element = document.documentElement;
+if (element.requestFullscreen) {
+    element.requestFullscreen();
+} else if (element.webkitRequestFullscreen) { /* Safari/iOS fallback syntax */
+    element.webkitRequestFullscreen();
+}
+
+// Lock orientation if supported
+screen.lockOrientation("landscape");
+};
+gdjs.Loading_95ScreenCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+gdjs.Loading_95ScreenCode.userFunc0xaa65a8(runtimeScene);
+
+}
+
+
+};gdjs.Loading_95ScreenCode.userFunc0x13d1f90 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Function to trigger fullscreen on a specific element
   const elem = document.documentElement;
@@ -162,14 +185,12 @@ gdjs.Loading_95ScreenCode.userFunc0x140ae18 = function GDJSInlineCode(runtimeSce
     elem.webkitRequestFullscreen();
   }
 };
-gdjs.Loading_95ScreenCode.eventsList1 = function(runtimeScene) {
+gdjs.Loading_95ScreenCode.eventsList2 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Background"), gdjs.Loading_95ScreenCode.GDBackgroundObjects1);
 
-const objects = gdjs.Loading_95ScreenCode.GDBackgroundObjects1;
-gdjs.Loading_95ScreenCode.userFunc0x140ae18(runtimeScene, objects);
+gdjs.Loading_95ScreenCode.userFunc0x13d1f90(runtimeScene);
 
 }
 
@@ -183,7 +204,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Loading_95ScreenCode.local
 gdjs.Loading_95ScreenCode.localVariables.length = 0;
 }
 gdjs.Loading_95ScreenCode.idToCallbackMap.set(27223812, gdjs.Loading_95ScreenCode.asyncCallback27223812);
-gdjs.Loading_95ScreenCode.eventsList2 = function(runtimeScene) {
+gdjs.Loading_95ScreenCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -199,7 +220,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 }
 
 
-};gdjs.Loading_95ScreenCode.eventsList3 = function(runtimeScene) {
+};gdjs.Loading_95ScreenCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -281,6 +302,9 @@ gdjs.copyArray(runtimeScene.getObjects("VerticalBubbles"), gdjs.Loading_95Screen
     gdjs.Loading_95ScreenCode.GDVerticalBubblesObjects1[i].getBehavior("Sticker").Stick(gdjs.Loading_95ScreenCode.mapOfGDgdjs_9546Loading_959595ScreenCode_9546GDLoadingFillMaskObjects1Objects, null);
 }
 }
+
+{ //Subevents
+gdjs.Loading_95ScreenCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -384,7 +408,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.Loading_95ScreenCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.Loading_95ScreenCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -410,7 +434,7 @@ gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.Loading_95ScreenCode.GDDa
 }
 
 { //Subevents
-gdjs.Loading_95ScreenCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.Loading_95ScreenCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 }
@@ -554,7 +578,7 @@ gdjs.Loading_95ScreenCode.GDPuzzle_9595TextObjects2.length = 0;
 gdjs.Loading_95ScreenCode.GDClick_9595outsideObjects1.length = 0;
 gdjs.Loading_95ScreenCode.GDClick_9595outsideObjects2.length = 0;
 
-gdjs.Loading_95ScreenCode.eventsList3(runtimeScene);
+gdjs.Loading_95ScreenCode.eventsList4(runtimeScene);
 gdjs.Loading_95ScreenCode.GDBackgroundObjects1.length = 0;
 gdjs.Loading_95ScreenCode.GDBackgroundObjects2.length = 0;
 gdjs.Loading_95ScreenCode.GDLoadingBarObjects1.length = 0;
