@@ -103,9 +103,11 @@ gdjs.Orloj_95Clock_95VideoCode.GDPuzzle_9595TextObjects1= [];
 gdjs.Orloj_95Clock_95VideoCode.GDPuzzle_9595TextObjects2= [];
 gdjs.Orloj_95Clock_95VideoCode.GDClick_9595outsideObjects1= [];
 gdjs.Orloj_95Clock_95VideoCode.GDClick_9595outsideObjects2= [];
+gdjs.Orloj_95Clock_95VideoCode.GDCameraObjects1= [];
+gdjs.Orloj_95Clock_95VideoCode.GDCameraObjects2= [];
 
 
-gdjs.Orloj_95Clock_95VideoCode.asyncCallback30722652 = function (runtimeScene, asyncObjectsList) {
+gdjs.Orloj_95Clock_95VideoCode.asyncCallback43560276 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Orloj_95Clock_95VideoCode.GDDarkenObjects2);
 
@@ -113,9 +115,11 @@ gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Orloj_95Clock_95Video
     gdjs.Orloj_95Clock_95VideoCode.GDDarkenObjects2[i].getBehavior("Tween").addObjectOpacityTween2("", 0, "linear", 0.5, false);
 }
 }
+{gdjs.evtTools.window.setAdaptGameResolutionAtRuntime(runtimeScene, true);
+}
 gdjs.Orloj_95Clock_95VideoCode.localVariables.length = 0;
 }
-gdjs.Orloj_95Clock_95VideoCode.idToCallbackMap.set(30722652, gdjs.Orloj_95Clock_95VideoCode.asyncCallback30722652);
+gdjs.Orloj_95Clock_95VideoCode.idToCallbackMap.set(43560276, gdjs.Orloj_95Clock_95VideoCode.asyncCallback43560276);
 gdjs.Orloj_95Clock_95VideoCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -126,14 +130,14 @@ gdjs.Orloj_95Clock_95VideoCode.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.localVariables);
 for (const obj of gdjs.Orloj_95Clock_95VideoCode.GDDarkenObjects1) asyncObjectsList.addObject("Darken", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Orloj_95Clock_95VideoCode.asyncCallback30722652(runtimeScene, asyncObjectsList)), 30722652, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Orloj_95Clock_95VideoCode.asyncCallback43560276(runtimeScene, asyncObjectsList)), 43560276, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Orloj_95Clock_95VideoCode.asyncCallback28939412 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Orloj_95Clock_95VideoCode.asyncCallback23289364 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(false);
 }
@@ -141,7 +145,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.
 }
 gdjs.Orloj_95Clock_95VideoCode.localVariables.length = 0;
 }
-gdjs.Orloj_95Clock_95VideoCode.idToCallbackMap.set(28939412, gdjs.Orloj_95Clock_95VideoCode.asyncCallback28939412);
+gdjs.Orloj_95Clock_95VideoCode.idToCallbackMap.set(23289364, gdjs.Orloj_95Clock_95VideoCode.asyncCallback23289364);
 gdjs.Orloj_95Clock_95VideoCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -151,7 +155,7 @@ gdjs.Orloj_95Clock_95VideoCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Orloj_95Clock_95VideoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Orloj_95Clock_95VideoCode.asyncCallback28939412(runtimeScene, asyncObjectsList)), 28939412, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Orloj_95Clock_95VideoCode.asyncCallback23289364(runtimeScene, asyncObjectsList)), 23289364, asyncObjectsList);
 }
 }
 
@@ -172,7 +176,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(30722580);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43559460);
 }
 }
 }
@@ -185,6 +189,68 @@ gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.Orloj_95Clock_95VideoCode
 
 { //Subevents
 gdjs.Orloj_95Clock_95VideoCode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 0, "Notification", 0, true, true, true, true, null);
+}
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 0, "Clickable", 0, true, true, true, true, null);
+}
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 0, "Fade", 0, true, true, true, true, null);
+}
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 0, "Mask", 0, true, true, true, true, null);
+}
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 0, "Buttons", 0, true, true, true, true, null);
+}
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 0, "Transition", 0, true, true, true, true, null);
+}
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 0, "VFX", 0, true, true, true, true, null);
+}
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 0, "SafeArea", 0, true, true, true, true, null);
+}
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 0, "Overlay", 0, true, true, true, true, null);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.window.getWindowInnerWidth() / 16 > gdjs.evtTools.window.getWindowInnerHeight() / 9);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.window.setGameResolutionSize(runtimeScene, 1920, 1080);
+}
+{gdjs.evtTools.window.setGameResolutionResizeMode(runtimeScene, "adaptHeight");
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.window.getWindowInnerWidth() / 16 < gdjs.evtTools.window.getWindowInnerHeight() / 9);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.window.setGameResolutionSize(runtimeScene, 1920, 1080);
+}
+{gdjs.evtTools.window.setGameResolutionResizeMode(runtimeScene, "adaptWidth");
+}
 }
 
 }
@@ -216,7 +282,7 @@ for (var i = 0, k = 0, l = gdjs.Orloj_95Clock_95VideoCode.GDOrlojObjects1.length
 gdjs.Orloj_95Clock_95VideoCode.GDOrlojObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28936108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(33201812);
 }
 }
 }
@@ -247,7 +313,7 @@ for (var i = 0, k = 0, l = gdjs.Orloj_95Clock_95VideoCode.GDOrlojObjects1.length
 gdjs.Orloj_95Clock_95VideoCode.GDOrlojObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28937444);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(33202276);
 }
 }
 if (isConditionTrue_0) {
@@ -267,7 +333,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28938620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(33203300);
 }
 }
 if (isConditionTrue_0) {
@@ -391,6 +457,8 @@ gdjs.Orloj_95Clock_95VideoCode.GDPuzzle_9595TextObjects1.length = 0;
 gdjs.Orloj_95Clock_95VideoCode.GDPuzzle_9595TextObjects2.length = 0;
 gdjs.Orloj_95Clock_95VideoCode.GDClick_9595outsideObjects1.length = 0;
 gdjs.Orloj_95Clock_95VideoCode.GDClick_9595outsideObjects2.length = 0;
+gdjs.Orloj_95Clock_95VideoCode.GDCameraObjects1.length = 0;
+gdjs.Orloj_95Clock_95VideoCode.GDCameraObjects2.length = 0;
 
 gdjs.Orloj_95Clock_95VideoCode.eventsList2(runtimeScene);
 gdjs.Orloj_95Clock_95VideoCode.GDOrlojObjects1.length = 0;
@@ -495,6 +563,8 @@ gdjs.Orloj_95Clock_95VideoCode.GDPuzzle_9595TextObjects1.length = 0;
 gdjs.Orloj_95Clock_95VideoCode.GDPuzzle_9595TextObjects2.length = 0;
 gdjs.Orloj_95Clock_95VideoCode.GDClick_9595outsideObjects1.length = 0;
 gdjs.Orloj_95Clock_95VideoCode.GDClick_9595outsideObjects2.length = 0;
+gdjs.Orloj_95Clock_95VideoCode.GDCameraObjects1.length = 0;
+gdjs.Orloj_95Clock_95VideoCode.GDCameraObjects2.length = 0;
 
 
 return;
