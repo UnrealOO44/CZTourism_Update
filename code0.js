@@ -458,7 +458,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Start"), gdjs.Loading_95ScreenCode.GDStartObjects1);
 {for(var i = 0, len = gdjs.Loading_95ScreenCode.GDStartObjects1.length ;i < len;++i) {
-    gdjs.Loading_95ScreenCode.GDStartObjects1[i].setX(1500);
+    gdjs.Loading_95ScreenCode.GDStartObjects1[i].setX(-436);
 }
 }
 }
