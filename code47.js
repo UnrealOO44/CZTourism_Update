@@ -265,7 +265,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(5);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(23).setNumber(0);
 }
 }
 
@@ -5606,7 +5606,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(0);
 }
 
 { //Subevents
@@ -5636,7 +5636,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
 }
 }
 
@@ -5724,7 +5724,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5888,7 +5888,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(21).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(22).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6199,7 +6199,7 @@ gdjs.Kafka_95CompletedCode.eventsList54(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Click_outside"), gdjs.Kafka_95CompletedCode.GDClick_9595outsideObjects1);
@@ -6234,7 +6234,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Kafka_95CompletedCode.G
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6453,13 +6453,13 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Hotel_Desk").setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(17).getChild("Hotel_Desk").setNumber(0);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Map").setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(17).getChild("Map").setNumber(0);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(7).setString("Hotel_Desk");
 }

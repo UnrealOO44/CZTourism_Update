@@ -4967,7 +4967,7 @@ for (var i = 0, k = 0, l = gdjs.PhoneCode.GDNotificationObjects4.length;i<l;++i)
 gdjs.PhoneCode.GDNotificationObjects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(14).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(15).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -4976,7 +4976,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(14).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(1);
 }
 }
 
@@ -5074,7 +5074,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Phone_on").getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getChild("Phone_on").getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.PhoneCode.GDPhone_9595ScreenObjects2, gdjs.PhoneCode.GDPhone_9595ScreenObjects3);
@@ -5093,7 +5093,7 @@ gdjs.copyArray(gdjs.PhoneCode.GDPhone_9595ScreenObjects2, gdjs.PhoneCode.GDPhone
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Phone_on").getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getChild("Phone_on").getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 
@@ -5746,7 +5746,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(0);
 }
 
 { //Subevents
@@ -5776,7 +5776,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
 }
 }
 
@@ -5864,7 +5864,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5960,7 +5960,7 @@ gdjs.PhoneCode.eventsList58 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.PhoneCode.localVariables);
 for (const obj of gdjs.PhoneCode.GDPhone_9595ScreenObjects1) asyncObjectsList.addObject("Phone_Screen", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getGame().getVariables().getFromIndex(23).getAsNumber()), (runtimeScene) => (gdjs.PhoneCode.asyncCallback29885996(runtimeScene, asyncObjectsList)), 29885996, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getGame().getVariables().getFromIndex(24).getAsNumber()), (runtimeScene) => (gdjs.PhoneCode.asyncCallback29885996(runtimeScene, asyncObjectsList)), 29885996, asyncObjectsList);
 }
 }
 
@@ -5989,7 +5989,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Phone_on").setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(17).getChild("Phone_on").setNumber(1);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(true);
 }
@@ -6122,7 +6122,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(21).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(22).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6360,7 +6360,7 @@ gdjs.PhoneCode.eventsList56(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Click_outside"), gdjs.PhoneCode.GDClick_9595outsideObjects1);
@@ -6395,7 +6395,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.PhoneCode.GDMenu_9595bt
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;

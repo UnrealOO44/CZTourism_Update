@@ -350,7 +350,7 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Kafka_95MonuementCode.local
 for (const obj of gdjs.Kafka_95MonuementCode.GDAction_9595btn_959511Objects4) asyncObjectsList.addObject("Action_btn_11", obj);
 /* Don't save Notification as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.Kafka_95MonuementCode.GDNotification_9595textObjects4) asyncObjectsList.addObject("Notification_text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getGame().getVariables().getFromIndex(23).getAsNumber()), (runtimeScene) => (gdjs.Kafka_95MonuementCode.asyncCallback31271484(runtimeScene, asyncObjectsList)), 31271484, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getGame().getVariables().getFromIndex(24).getAsNumber()), (runtimeScene) => (gdjs.Kafka_95MonuementCode.asyncCallback31271484(runtimeScene, asyncObjectsList)), 31271484, asyncObjectsList);
 }
 }
 
@@ -456,7 +456,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(27).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(28).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5770,7 +5770,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(0);
 }
 
 { //Subevents
@@ -5800,7 +5800,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
 }
 }
 
@@ -5888,7 +5888,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6016,15 +6016,15 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 };gdjs.Kafka_95MonuementCode.asyncCallback31275244 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Kafka_95MonuementCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Hotel_Desk").setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(17).getChild("Hotel_Desk").setNumber(0);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(0);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(26).setString("cemetery");
+{runtimeScene.getGame().getVariables().getFromIndex(27).setString("cemetery");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Map").setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(17).getChild("Map").setNumber(0);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(7).setString("Hotel_Desk");
 }
@@ -6303,7 +6303,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 };gdjs.Kafka_95MonuementCode.mapOfGDgdjs_9546Kafka_959595MonuementCode_9546GDClick_95959595ShoesObjects1Objects = Hashtable.newFrom({"Click_Shoes": gdjs.Kafka_95MonuementCode.GDClick_9595ShoesObjects1});
 gdjs.Kafka_95MonuementCode.asyncCallback31318932 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Kafka_95MonuementCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(27).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(28).setNumber(1);
 }
 gdjs.Kafka_95MonuementCode.localVariables.length = 0;
 }
@@ -6327,7 +6327,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8)
 };gdjs.Kafka_95MonuementCode.mapOfGDgdjs_9546Kafka_959595MonuementCode_9546GDAction_95959595btn_9595959522Objects1Objects = Hashtable.newFrom({"Action_btn_22": gdjs.Kafka_95MonuementCode.GDAction_9595btn_959522Objects1});
 gdjs.Kafka_95MonuementCode.asyncCallback31322588 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Kafka_95MonuementCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(27).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(28).setNumber(1);
 }
 gdjs.Kafka_95MonuementCode.localVariables.length = 0;
 }
@@ -6352,7 +6352,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8)
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Kafka_95MonuementCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(20);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(27).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(28).setNumber(0);
 }
 gdjs.Kafka_95MonuementCode.localVariables.length = 0;
 }
@@ -6755,7 +6755,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Kafka_95MonuementCode.G
     gdjs.Kafka_95MonuementCode.GDClose_9595btnObjects2[i].hide();
 }
 }
-{runtimeScene.getGame().getVariables().getFromIndex(25).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(26).setNumber(1);
 }
 gdjs.Kafka_95MonuementCode.localVariables.length = 0;
 }
@@ -6789,7 +6789,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Kafka_95MonuementCode.G
     gdjs.Kafka_95MonuementCode.GDClose_9595btnObjects2[i].hide();
 }
 }
-{runtimeScene.getGame().getVariables().getFromIndex(25).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(26).setNumber(1);
 }
 gdjs.Kafka_95MonuementCode.localVariables.length = 0;
 }
@@ -7191,7 +7191,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(21).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(22).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -7492,7 +7492,7 @@ gdjs.Kafka_95MonuementCode.eventsList56(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Click_outside"), gdjs.Kafka_95MonuementCode.GDClick_9595outsideObjects1);
@@ -7527,7 +7527,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Kafka_95MonuementCode.G
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -8094,7 +8094,7 @@ gdjs.Kafka_95MonuementCode.eventsList71(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(27).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(28).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -8519,7 +8519,7 @@ gdjs.Kafka_95MonuementCode.eventsList84(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(25).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(26).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -8527,7 +8527,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(25).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(26).setNumber(0);
 }
 
 { //Subevents

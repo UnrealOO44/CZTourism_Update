@@ -343,7 +343,7 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.NepomukCode.localVariables)
 for (const obj of gdjs.NepomukCode.GDAction_9595btn_959511Objects3) asyncObjectsList.addObject("Action_btn_11", obj);
 /* Don't save Notification as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.NepomukCode.GDNotification_9595textObjects3) asyncObjectsList.addObject("Notification_text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getGame().getVariables().getFromIndex(23).getAsNumber()), (runtimeScene) => (gdjs.NepomukCode.asyncCallback30311140(runtimeScene, asyncObjectsList)), 30311140, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getGame().getVariables().getFromIndex(24).getAsNumber()), (runtimeScene) => (gdjs.NepomukCode.asyncCallback30311140(runtimeScene, asyncObjectsList)), 30311140, asyncObjectsList);
 }
 }
 
@@ -402,7 +402,12 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = !(gdjs.VariablesContainer.badVariable.getAsString() == "Map");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(28).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11518796);
+}
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Button_text_11"), gdjs.NepomukCode.GDButton_9595text_959511Objects2);
@@ -438,7 +443,7 @@ gdjs.NepomukCode.eventsList2(runtimeScene, asyncObjectsList);} //End of subevent
 };gdjs.NepomukCode.asyncCallback30270404 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.NepomukCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.NepomukCode.GDMenu_9595btnObjects2);
-{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
 }
 {for(var i = 0, len = gdjs.NepomukCode.GDMenu_9595btnObjects2.length ;i < len;++i) {
     gdjs.NepomukCode.GDMenu_9595btnObjects2[i].hide(false);
@@ -5714,7 +5719,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(0);
 }
 
 { //Subevents
@@ -5744,7 +5749,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
 }
 }
 
@@ -5832,7 +5837,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5960,15 +5965,15 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 };gdjs.NepomukCode.asyncCallback30300124 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.NepomukCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Hotel_Desk").setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(17).getChild("Hotel_Desk").setNumber(0);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(0);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(26).setString("orloj");
+{runtimeScene.getGame().getVariables().getFromIndex(27).setString("orloj");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(16).getChild("Map").setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(17).getChild("Map").setNumber(0);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(7).setString("Hotel_Desk");
 }
@@ -6025,7 +6030,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 gdjs.NepomukCode.mapOfGDgdjs_9546NepomukCode_9546GDAction_95959595btn_9595959522Objects1Objects = Hashtable.newFrom({"Action_btn_22": gdjs.NepomukCode.GDAction_9595btn_959522Objects1});
 gdjs.NepomukCode.asyncCallback30315524 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.NepomukCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(27).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(28).setNumber(1);
 }
 gdjs.NepomukCode.localVariables.length = 0;
 }
@@ -6048,7 +6053,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 
 };gdjs.NepomukCode.asyncCallback30320772 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.NepomukCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(27).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(28).setNumber(0);
 }
 gdjs.NepomukCode.localVariables.length = 0;
 }
@@ -6182,7 +6187,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.NepomukCode.GDMenu_9595
     gdjs.NepomukCode.GDMenu_9595btnObjects2[i].hide(false);
 }
 }
-{runtimeScene.getGame().getVariables().getFromIndex(25).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(26).setNumber(1);
 }
 gdjs.NepomukCode.localVariables.length = 0;
 }
@@ -6210,7 +6215,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.NepomukCode.GDMenu_9595
     gdjs.NepomukCode.GDMenu_9595btnObjects2[i].hide(false);
 }
 }
-{runtimeScene.getGame().getVariables().getFromIndex(25).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(26).setNumber(1);
 }
 gdjs.NepomukCode.localVariables.length = 0;
 }
@@ -7087,7 +7092,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(21).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(22).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -7383,7 +7388,7 @@ gdjs.NepomukCode.eventsList55(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Click_outside"), gdjs.NepomukCode.GDClick_9595outsideObjects1);
@@ -7418,7 +7423,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.NepomukCode.GDMenu_9595
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -7791,7 +7796,7 @@ gdjs.NepomukCode.eventsList61(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(27).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(28).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -7934,7 +7939,7 @@ gdjs.NepomukCode.eventsList66(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(25).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(26).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -7942,7 +7947,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(25).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(26).setNumber(0);
 }
 
 { //Subevents
